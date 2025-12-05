@@ -1,3 +1,4 @@
-import {loadHeaderFooter, breedBaseTemplate} from './utilities.mjs';
+import {loadHeaderFooter, initMenuToggle, breedBaseTemplate} from './utilities.mjs';
 
 loadHeaderFooter();
+initMenuToggle();

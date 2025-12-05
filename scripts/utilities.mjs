@@ -15,6 +15,28 @@ export async function loadHeaderFooter() {
     if (yearElement) {
         yearElement.textContent = currentYear;
     }
+
+    // Adding menu toggle functionality
+    const menuBtn = document.getElementById("menu-toggle");
+    const navLinks = document.querySelector(".menu-wrap .navlinks");
+    
+    menuBtn.addEventListener("click", (e) => {
+        e.preventDefault(); // keep the page from jumping to top
+        navLinks.classList.toggle("show");
+        navLinks.classList.toggle("hidden");
+    });
+}
+
+// menu toggle functionality
+export function initMenuToggle() {
+    const menuBtn = document.getElementById("menu-toggle");
+    const navLinks = document.querySelector(".menu-wrap .navlinks");
+
+    menuBtn.addEventListener("click", (e) => {
+        e.preventDefault(); // keep the page from jumping to top
+        navLinks.classList.toggle("show");
+        navLinks.classList.toggle("hidden");
+    });
 }
 
 // Basic breed template for breed listings
@@ -49,4 +71,45 @@ export function breedDetailTemplate(breed) {
         <button class="favorite-btn" data-breed-id="${breed.id}">Add to Favorites</button>
     </div>
     `;
+}
+
+// Locale storage helper functions
+/**
+ * Save a value to localStorage
+ * @param {string} key - The key under which to store the value
+ * @param {any} value - The value to store (will be stringified)
+ */
+export function saveToStorage(key, value) {
+  try {
+    localStorage.setItem(key, JSON.stringify(value));
+  } catch (err) {
+    console.error(`Error saving ${key} to storage:`, err);
+  }
+}
+
+/**
+ * Retrieve a value from localStorage
+ * @param {string} key - The key to retrieve
+ * @returns {any|null} - Parsed value or null if not found
+ */
+export function getFromStorage(key) {
+  try {
+    const item = localStorage.getItem(key);
+    return item ? JSON.parse(item) : null;
+  } catch (err) {
+    console.error(`Error reading ${key} from storage:`, err);
+    return null;
+  }
+}
+
+/**
+ * Remove a value from localStorage
+ * @param {string} key - The key to remove
+ */
+export function removeFromStorage(key) {
+  try {
+    localStorage.removeItem(key);
+  } catch (err) {
+    console.error(`Error removing ${key} from storage:`, err);
+  }
 }

@@ -18,51 +18,109 @@
 </head>
 <body>
     <header>
+        <!-- Logo -->
         <div class="logo">
-            <img src="images/bone.svg" alt="dog bone image" width="75px" height="75px"/>
-            <a href="index.html"> Canine<span class="highlight">Corner</span></a>
+            <a href="index.html">
+                <img src="images/bone.svg" alt="dog bone image" width="75" height="75"/>
+                <span>Canine<span class="highlight">Corner</span></span>
+            </a>
         </div>
+        
+        <!-- Favorites -->
         <div class="saved">
             <a href="navpages/favorites.html">
-                <img src="images/heart.webp" alt="paw print icon" width="60px" height="60px"/>
+                <img src="images/heart.webp" alt="paw print icon" width="60" height="60"/>
                 <span>Favorites</span>
             </a>
         </div>
-        <nav class="navlinks">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="navpages/breeds.html">Breeds</a></li>
-                <li><a href="navpages/favorites.html">Favorites</a></li>
-            </ul>
-        </nav> 
-    </header> 
+        
+        <!-- Menu Trigger + Dropdown -->
+        <div class="menu-wrap">
+            <a href="#" id="menu-toggle" class="menu-btn">
+                <img src="images/sniff.svg" alt="dog sniffing" width="70" height="70"/>
+                <span>Sniff Around</span>
+            </a>
+
+            <nav class="navlinks hidden">
+                <ul>
+                    <li><a href="index.html">🐾 Home</a></li>
+                    <li><a href="navpages/breeds.html">🐾 Breeds</a></li>
+                    <li><a href="navpages/favorites.html">🐾 Favorites</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
     <main>
         <div class="hero">
             <img src="images/hero.webp" alt="banner image of various dog breeds"/>
-            <div class="logo">
-                <img src="images/bone-hori.svg" alt="dog bone logo image"/>
-            </div>
-            <div>
-                <h1>Welcome to Canine<span class="highlight">Corner</span></h1>
-                <p>
-                    Canine Corner is where tails wag and questions find answers. 
-                    Our mission is to guide curious dog lovers through the world of breeds, 
-                    offering insights that help you discover the pup that fits your 
-                    lifestyle — because choosing a dog should be less “ruff” and more rewarding.
-                </p>
+
+            <div class="hero-content">
+                <div class="hero-logo">
+                    <img src="images/bone-hori.svg" alt="dog bone logo image"/>
+                </div>
+                <div>
+                    <h1>Welcome to Canine<span class="highlight">Corner</span></h1>
+                    <p>
+                        Canine Corner is where tails wag and questions find answers. 
+                        Our mission is to guide curious dog lovers through the world of breeds, 
+                        offering insights that help you discover the pup that fits your 
+                        lifestyle — because choosing a dog should be less “ruff” and more rewarding.
+                    </p>
+                </div>
             </div>
         </div>
-        <div>
-            <div>
-                <!-- <img src="" alt="dog breed"/> -->
-                <h2>Explore Breeds</h2>
-                <p>Dive into detailed profiles of various dog breeds, including their history, temperament, and care needs.</p>
-                <a href="navpages/breeds.html" class="btn">Discover More</a>
-            </div>
-            <div></div> <!-- a spotlight that loads a random breed-->
-            <div></div> <!-- maybe a fun psychology fact and link to outside source page -->
+        <div class="homepage">
+            <!-- Left column: Spotlight (spans full height) -->
+            <section class="card spotlight-card" aria-labelledby="spotlight-title">
+                <h2 id="spotlight-title">Spotlight Breed</h2>
+                <div class="spotlight-media">
+                <!-- Optional image placeholder -->
+                <img src="" alt="" class="spotlight-image" hidden />
+                </div>
+                <div class="spotlight-info" aria-live="polite">
+                <p class="loading">Fetching your pup…</p>
+                <!-- JS will replace with breed name, fact, and image -->
+                </div>
+                <a class="btn btn-primary" href="navpages/breeds.html">Learn more</a>
+            </section>
+            
+            <!-- Right column top: Newsletter -->
+            <section class="card newsletter-card" aria-labelledby="newsletter-title">
+                <!-- Image with overlay text -->
+                <div class="newsletter-image-wrap">
+                  <img src="images/begging.webp" alt="dog begging" class="newsletter-image"/>
+                  
+                  <!-- Overlay headline + description -->
+                  <div class="newsletter-overlay">
+                    <h2 id="newsletter-title">Join the Pack</h2>
+                    <p>Get updates, tips, and featured companions.</p>
+                  </div>
+                </div>
+              
+                <!-- Email form stacked below the image -->
+                <div class="newsletter-form-wrap">
+                    <form id="newsletter-form" novalidate>
+                      <label for="email">Email</label>
+                      <input type="email" id="email" name="email" placeholder="you@example.com" required autocomplete="email"/>
+                      <button type="submit" class="btn btn-primary">Subscribe</button>
+                      <p class="form-status" aria-live="polite" hidden></p>
+                      <button id="unsubscribe-btn" class="btn-unsubscribe" hidden>Unsubscribe</button>
+                    </form>
+                </div>
+            </section>
+                                        
+            <!-- Right column bottom: Explore -->
+            <section class="card explore-card" aria-labelledby="explore-title">
+                <img src="images/companion.webp" alt="person hugging a dog" class="companion-image"/>
+                <div class="companion-text">
+                  <h2 id="explore-title">Find your companion</h2>
+                  <p>Browse breeds by size, temperament, or activity level.</p>
+                  <a class="btn btn-secondary" href="navpages/breeds.html">Explore breeds</a>
+                </div>
+              </section>
         </div>
     </main>
-    <footer id="footer"></footer> <!-- populated by main.js -->
+    <footer><p>&copy; <span id="currentyear"></span> 🐾 Shaundra Strong 🐾 North Carolina, USA</p>
+        <p>API Credits: dog.ceo/dog-api | dogapi.dog/api-v2</p></footer> 
 </body>
 </html>
