@@ -1,0 +1,518 @@
+[
+  {
+    "ceo_format": "affenpinscher",
+    "standard_format": "Affenpinscher"
+  },
+  {
+    "ceo_format": "afghan hound",
+    "standard_format": "Afghan Hound"
+  },
+  {
+    "ceo_format": "airedale",
+    "standard_format": "Airedale Terrier"
+  },
+  {
+    "ceo_format": "akita",
+    "standard_format": "Akita"
+  },
+  {
+    "ceo_format": "malamute",
+    "standard_format": "Alaskan Malamute"
+  },
+  {
+    "ceo_format": "eskimo",
+    "standard_format": "American Eskimo Dog"
+  },
+  {
+    "ceo_format": "appenzeller",
+    "standard_format": "Appenzeller Sennenhund"
+  },
+  {
+    "ceo_format": "australian cattledog",
+    "standard_format": "Australian Cattle Dog"
+  },
+  {
+    "ceo_format": "kelpie australian",
+    "standard_format": "Australian Kelpie"
+  },
+  {
+    "ceo_format": "shepherd australian",
+    "standard_format": "Australian Shepherd"
+  },
+  {
+    "ceo_format": "australian terrier",
+    "standard_format": "Australian Terrier"
+  },
+  {
+    "ceo_format": "basenji",
+    "standard_format": "Basenji"
+  },
+  {
+    "ceo_format": "basset hound",
+    "standard_format": "Basset Hound"
+  },
+  {
+    "ceo_format": "beagle",
+    "standard_format": "Beagle"
+  },
+  {
+    "ceo_format": "bedlington terrier",
+    "standard_format": "Bedlington Terrier"
+  },
+  {
+    "ceo_format": "malinois",
+    "standard_format": "Belgian Malinois"
+  },
+  {
+    "ceo_format": "tervuren",
+    "standard_format": "Belgian Tervuren"
+  },
+  {
+    "ceo_format": "bichon frise",
+    "standard_format": "Bichon Frise"
+  },
+  {
+    "ceo_format": "blood hound",
+    "standard_format": "Bloodhound"
+  },
+  {
+    "ceo_format": "bluetick",
+    "standard_format": "Bluetick Coonhound"
+  },
+  {
+    "ceo_format": "border collie",
+    "standard_format": "Border Collie"
+  },
+  {
+    "ceo_format": "border terrier",
+    "standard_format": "Border Terrier"
+  },
+  {
+    "ceo_format": "borzoi",
+    "standard_format": "Borzoi"
+  },
+  {
+    "ceo_format": "boston terrier",
+    "standard_format": "Boston Terrier"
+  },
+  {
+    "ceo_format": "bouvier",
+    "standard_format": "Bouvier des Flandres"
+  },
+  {
+    "ceo_format": "boxer",
+    "standard_format": "Boxer"
+  },
+  {
+    "ceo_format": "briard",
+    "standard_format": "Briard"
+  },
+  {
+    "ceo_format": "brittany spaniel",
+    "standard_format": "Brittany"
+  },
+  {
+    "ceo_format": "english bulldog",
+    "standard_format": "Bulldog"
+  },
+  {
+    "ceo_format": "bull mastiff",
+    "standard_format": "Bullmastiff"
+  },
+  {
+    "ceo_format": "cairn terrier",
+    "standard_format": "Cairn Terrier"
+  },
+  {
+    "ceo_format": "cardigan corgi",
+    "standard_format": "Cardigan Welsh Corgi"
+  },
+  {
+    "ceo_format": "caucasian ovcharka",
+    "standard_format": "Caucasian Shepherd Dog"
+  },
+  {
+    "ceo_format": "chesapeake retriever",
+    "standard_format": "Chesapeake Bay Retriever"
+  },
+  {
+    "ceo_format": "chihuahua",
+    "standard_format": "Chihuahua"
+  },
+  {
+    "ceo_format": "sharpei",
+    "standard_format": "Chinese Shar-Pei"
+  },
+  {
+    "ceo_format": "clumber",
+    "standard_format": "Clumber Spaniel"
+  },
+  {
+    "ceo_format": "cocker spaniel",
+    "standard_format": "Cocker Spaniel"
+  },
+  {
+    "ceo_format": "cotondetulear",
+    "standard_format": "Coton de Tulear"
+  },
+  {
+    "ceo_format": "curly retriever",
+    "standard_format": "Curly-Coated Retriever"
+  },
+  {
+    "ceo_format": "dachshund",
+    "standard_format": "Dachshund"
+  },
+  {
+    "ceo_format": "dalmatian",
+    "standard_format": "Dalmatian"
+  },
+  {
+    "ceo_format": "dandie terrier",
+    "standard_format": "Dandie Dinmont Terrier"
+  },
+  {
+    "ceo_format": "doberman",
+    "standard_format": "Doberman Pinscher"
+  },
+  {
+    "ceo_format": "cocker spaniel",
+    "standard_format": "English Cocker Spaniel"
+  },
+  {
+    "ceo_format": "english setter",
+    "standard_format": "English Setter"
+  },
+  {
+    "ceo_format": "english springer",
+    "standard_format": "English Springer Spaniel"
+  },
+  {
+    "ceo_format": "entlebucher",
+    "standard_format": "Entlebucher Mountain Dog"
+  },
+  {
+    "ceo_format": "lapphund finnish",
+    "standard_format": "Finnish Lapphund"
+  },
+  {
+    "ceo_format": "flatcoated retriever",
+    "standard_format": "Flat-Coated Retriever"
+  },
+  {
+    "ceo_format": "french bulldog",
+    "standard_format": "French Bulldog"
+  },
+  {
+    "ceo_format": "germanlonghair pointer",
+    "standard_format": "German Longhaired Pointer"
+  },
+  {
+    "ceo_format": "shepherd german",
+    "standard_format": "German Shepherd Dog"
+  },
+  {
+    "ceo_format": "giant schnauzer",
+    "standard_format": "Giant Schnauzer"
+  },
+  {
+    "ceo_format": "golden retriever",
+    "standard_format": "Golden Retriever"
+  },
+  {
+    "ceo_format": "gordon setter",
+    "standard_format": "Gordon Setter"
+  },
+  {
+    "ceo_format": "great dane",
+    "standard_format": "Great Dane"
+  },
+  {
+    "ceo_format": "pyrenees",
+    "standard_format": "Great Pyrenees"
+  },
+  {
+    "ceo_format": "havanese",
+    "standard_format": "Havanese"
+  },
+  {
+    "ceo_format": "ibizan hound",
+    "standard_format": "Ibizan Hound"
+  },
+  {
+    "ceo_format": "irish setter",
+    "standard_format": "Irish Setter"
+  },
+  {
+    "ceo_format": "irish terrier",
+    "standard_format": "Irish Terrier"
+  },
+  {
+    "ceo_format": "irish spaniel",
+    "standard_format": "Irish Water Spaniel"
+  },
+  {
+    "ceo_format": "irish wolfhound",
+    "standard_format": "Irish Wolfhound"
+  },
+  {
+    "ceo_format": "italian greyhound",
+    "standard_format": "Italian Greyhound"
+  },
+  {
+    "ceo_format": "japanese spitz",
+    "standard_format": "Japanese Spitz"
+  },
+  {
+    "ceo_format": "keeshond",
+    "standard_format": "Keeshond"
+  },
+  {
+    "ceo_format": "kerryblue terrier",
+    "standard_format": "Kerry Blue Terrier"
+  },
+  {
+    "ceo_format": "komondor",
+    "standard_format": "Komondor"
+  },
+  {
+    "ceo_format": "kuvasz",
+    "standard_format": "Kuvasz"
+  },
+  {
+    "ceo_format": "labrador",
+    "standard_format": "Labrador Retriever"
+  },
+  {
+    "ceo_format": "lakeland terrier",
+    "standard_format": "Lakeland Terrier"
+  },
+  {
+    "ceo_format": "leonberg",
+    "standard_format": "Leonberger"
+  },
+  {
+    "ceo_format": "lhasa",
+    "standard_format": "Lhasa Apso"
+  },
+  {
+    "ceo_format": "maltese",
+    "standard_format": "Maltese"
+  },
+  {
+    "ceo_format": "english mastiff",
+    "standard_format": "Mastiff"
+  },
+  {
+    "ceo_format": "miniature pinscher",
+    "standard_format": "Miniature Pinscher"
+  },
+  {
+    "ceo_format": "miniature schnauzer",
+    "standard_format": "Miniature Schnauzer"
+  },
+  {
+    "ceo_format": "newfoundland",
+    "standard_format": "Newfoundland"
+  },
+  {
+    "ceo_format": "norfolk terrier",
+    "standard_format": "Norfolk Terrier"
+  },
+  {
+    "ceo_format": "norwegian buhund",
+    "standard_format": "Norwegian Buhund"
+  },
+  {
+    "ceo_format": "norwegian elkhound",
+    "standard_format": "Norwegian Elkhound"
+  },
+  {
+    "ceo_format": "norwich terrier",
+    "standard_format": "Norwich Terrier"
+  },
+  {
+    "ceo_format": "english sheepdog",
+    "standard_format": "Old English Sheepdog"
+  },
+  {
+    "ceo_format": "otterhound",
+    "standard_format": "Otterhound"
+  },
+  {
+    "ceo_format": "papillon",
+    "standard_format": "Papillon"
+  },
+  {
+    "ceo_format": "pekinese",
+    "standard_format": "Pekingese"
+  },
+  {
+    "ceo_format": "pembroke",
+    "standard_format": "Pembroke Welsh Corgi"
+  },
+  {
+    "ceo_format": "plott hound",
+    "standard_format": "Plott"
+  },
+  {
+    "ceo_format": "pomeranian",
+    "standard_format": "Pomeranian"
+  },
+  {
+    "ceo_format": "miniature poodle",
+    "standard_format": "Poodle (Miniature)"
+  },
+  {
+    "ceo_format": "standard poodle",
+    "standard_format": "Poodle (Standard)"
+  },
+  {
+    "ceo_format": "toy poodle",
+    "standard_format": "Poodle (Toy)"
+  },
+  {
+    "ceo_format": "pug",
+    "standard_format": "Pug"
+  },
+  {
+    "ceo_format": "pyrenees",
+    "standard_format": "Pyrenean Mastiff"
+  },
+  {
+    "ceo_format": "pyrenees",
+    "standard_format": "Pyrenean Shepherd"
+  },
+  {
+    "ceo_format": "redbone",
+    "standard_format": "Redbone Coonhound"
+  },
+  {
+    "ceo_format": "rhodesian ridgeback",
+    "standard_format": "Rhodesian Ridgeback"
+  },
+  {
+    "ceo_format": "rottweiler",
+    "standard_format": "Rottweiler"
+  },
+  {
+    "ceo_format": "russell terrier",
+    "standard_format": "Russell Terrier"
+  },
+  {
+    "ceo_format": "stbernard",
+    "standard_format": "Saint Bernard"
+  },
+  {
+    "ceo_format": "saluki",
+    "standard_format": "Saluki"
+  },
+  {
+    "ceo_format": "samoyed",
+    "standard_format": "Samoyed"
+  },
+  {
+    "ceo_format": "schipperke",
+    "standard_format": "Schipperke"
+  },
+  {
+    "ceo_format": "scottish deerhound",
+    "standard_format": "Scottish Deerhound"
+  },
+  {
+    "ceo_format": "scottish terrier",
+    "standard_format": "Scottish Terrier"
+  },
+  {
+    "ceo_format": "sealyham terrier",
+    "standard_format": "Sealyham Terrier"
+  },
+  {
+    "ceo_format": "italian segugio",
+    "standard_format": "Segugio Italiano"
+  },
+  {
+    "ceo_format": "shetland sheepdog",
+    "standard_format": "Shetland Sheepdog"
+  },
+  {
+    "ceo_format": "shiba",
+    "standard_format": "Shiba Inu"
+  },
+  {
+    "ceo_format": "shihtzu",
+    "standard_format": "Shih Tzu"
+  },
+  {
+    "ceo_format": "husky",
+    "standard_format": "Siberian Husky"
+  },
+  {
+    "ceo_format": "silky terrier",
+    "standard_format": "Silky Terrier"
+  },
+  {
+    "ceo_format": "fox terrier",
+    "standard_format": "Smooth Fox Terrier"
+  },
+  {
+    "ceo_format": "wheaten terrier",
+    "standard_format": "Soft Coated Wheaten Terrier"
+  },
+  {
+    "ceo_format": "spanish waterdog",
+    "standard_format": "Spanish Water Dog"
+  },
+  {
+    "ceo_format": "staffordshire bullterrier",
+    "standard_format": "Staffordshire Bull Terrier"
+  },
+  {
+    "ceo_format": "sussex spaniel",
+    "standard_format": "Sussex Spaniel"
+  },
+  {
+    "ceo_format": "tibetan mastiff",
+    "standard_format": "Tibetan Mastiff"
+  },
+  {
+    "ceo_format": "tibetan terrier",
+    "standard_format": "Tibetan Terrier"
+  },
+  {
+    "ceo_format": "toy terrier",
+    "standard_format": "Toy Fox Terrier"
+  },
+  {
+    "ceo_format": "vizsla",
+    "standard_format": "Vizsla"
+  },
+  {
+    "ceo_format": "weimaraner",
+    "standard_format": "Weimaraner"
+  },
+  {
+    "ceo_format": "welsh terrier",
+    "standard_format": "Welsh Terrier"
+  },
+  {
+    "ceo_format": "westhighland terrier",
+    "standard_format": "West Highland White Terrier"
+  },
+  {
+    "ceo_format": "whippet",
+    "standard_format": "Whippet"
+  },
+  {
+    "ceo_format": "fox terrier",
+    "standard_format": "Wire Fox Terrier"
+  },
+  {
+    "ceo_format": "vizsla",
+    "standard_format": "Wirehaired Vizsla"
+  },
+  {
+    "ceo_format": "yorkshire terrier",
+    "standard_format": "Yorkshire Terrier"
+  }
+]
