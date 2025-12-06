@@ -1,11 +1,11 @@
 export async function loadHeaderFooter() {
     // load the header
-    const header = await fetch("/partials/header.html");
+    const header = await fetch("../partials/header.html");
     const headerText = await header.text();
     document.querySelector("#header").innerHTML = headerText;
 
     // load the footer
-    const footer = await fetch("/partials/footer.html");
+    const footer = await fetch("../partials/footer.html");
     const footerText = await footer.text();
     document.querySelector("#footer").innerHTML = footerText;
 
