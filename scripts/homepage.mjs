@@ -52,24 +52,33 @@ export async function initSpotlight() {
   if (!spotlightImage || !spotlightInfo || !learnMoreBtn) return;
 
   try {
-    // Fetch a random dog image from Dog CEO API
-    const res = await fetch("https://dog.ceo/api/breeds/image/random");
-    const data = await res.json();
+    // 1. Load local mapping file
+    const res = await fetch("matchingBreeds.json"); // path to local JSON
+    const breedMap = await res.json();
 
-    // Extract breed name from the image URL
-    const breedName = data.message.split("/")[4];
+    // 2. Pick a random breed from the mapping
+    const randomIndex = Math.floor(Math.random() * breedMap.length);
+    const randomBreed = breedMap[randomIndex];
 
-    // Update spotlight card
-    spotlightImage.src = data.message;
-    spotlightImage.alt = `Image of a ${breedName}`;
+    // 3. Use ceo_format for Dog CEO API
+    const ceoBreed = randomBreed.ceo_format;
+    const standardBreed = randomBreed.standard_format;
+
+    // 4. Fetch image from Dog CEO API
+    const imgRes = await fetch(`https://dog.ceo/api/breed/${ceoBreed}/images/random`);
+    const imgData = await imgRes.json();
+
+    // 5. Update spotlight card
+    spotlightImage.src = imgData.message;
+    spotlightImage.alt = `Image of a ${standardBreed}`;
     spotlightImage.hidden = false;
 
-    spotlightInfo.textContent = `Breed: ${breedName}`;
+    spotlightInfo.textContent = `Breed: ${standardBreed}`;
 
-    // Save breed name to localStorage for details page
-    saveToStorage("spotlightBreed", breedName);
-    
-    // Redirect when "Learn more" is clicked
+    // 6. Save both formats for details page
+    saveToStorage("spotlightBreed", randomBreed);
+
+    // 7. Redirect when "Learn more" is clicked
     learnMoreBtn.addEventListener("click", (e) => {
       e.preventDefault();
       window.location.href = "navpages/details.html";
@@ -79,5 +88,4 @@ export async function initSpotlight() {
     console.error(err);
   }
 }
-
 
