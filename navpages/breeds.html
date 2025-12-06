@@ -18,6 +18,27 @@
 </head>
 <body>
     <header id="header"></header>
+    <main class="breeds-page">
+        <h1>Breeds</h1>
+        
+        <!-- Category filter buttons -->
+        <section id="breed-filters">
+            <button class="cat-btn" data-category="All">All</button>
+            <button class="cat-btn" data-category="Toy Group">Toy Group</button>
+            <button class="cat-btn" data-category="Hound Group">Hound Group</button>
+            <button class="cat-btn" data-category="Terrier Group">Terrier Group</button>
+            <button class="cat-btn" data-category="Working Group">Working Group</button>
+            <button class="cat-btn" data-category="Herding Group">Herding Group</button>
+            <button class="cat-btn" data-category="Sporting Group">Sporting Group</button>
+            <button class="cat-btn" data-category="Non-Sporting Group">Non-Sporting Group</button>
+        </section>
+        
+        <!-- Breed thumbnails -->
+        <section id="breed-gallery" class="gallery"></section>
+
+        <!-- Faster loading response -->
+        <button id="load-more">Load More</button>
+    </main>
     <footer id="footer"></footer>
 </body>
 </html>

@@ -1,518 +1,647 @@
 [
-    {
-        "ceo_format": "affenpinscher",
-        "standard_format": "Affenpinscher"
-    },
-    {
-        "ceo_format": "hound-afghan",
-        "standard_format": "Afghan Hound"
-    },
-    {
-        "ceo_format": "airedale",
-        "standard_format": "Airedale Terrier"
-    },
-    {
-        "ceo_format": "akita",
-        "standard_format": "Akita"
-    },
-    {
-        "ceo_format": "malamute",
-        "standard_format": "Alaskan Malamute"
-    },
-    {
-        "ceo_format": "eskimo",
-        "standard_format": "American Eskimo Dog"
-    },
-    {
-        "ceo_format": "appenzeller",
-        "standard_format": "Appenzeller Sennenhund"
-    },
-    {
-        "ceo_format": "cattledog-australian",
-        "standard_format": "Australian Cattle Dog"
-    },
-    {
-        "ceo_format": "australian-kelpie",
-        "standard_format": "Australian Kelpie"
-    },
-    {
-        "ceo_format": "australian-shepherd",
-        "standard_format": "Australian Shepherd"
-    },
-    {
-        "ceo_format": "terrier-australian",
-        "standard_format": "Australian Terrier"
-    },
-    {
-        "ceo_format": "basenji",
-        "standard_format": "Basenji"
-    },
-    {
-        "ceo_format": "hound-basset",
-        "standard_format": "Basset Hound"
-    },
-    {
-        "ceo_format": "beagle",
-        "standard_format": "Beagle"
-    },
-    {
-        "ceo_format": "terrier-bedlington",
-        "standard_format": "Bedlington Terrier"
-    },
-    {
-        "ceo_format": "malinois",
-        "standard_format": "Belgian Malinois"
-    },
-    {
-        "ceo_format": "tervuren",
-        "standard_format": "Belgian Tervuren"
-    },
-    {
-        "ceo_format": "frise-bichon",
-        "standard_format": "Bichon Frise"
-    },
-    {
-        "ceo_format": "hound-blood",
-        "standard_format": "Bloodhound"
-    },
-    {
-        "ceo_format": "bluetick",
-        "standard_format": "Bluetick Coonhound"
-    },
-    {
-        "ceo_format": "collie-border",
-        "standard_format": "Border Collie"
-    },
-    {
-        "ceo_format": "terrier-border",
-        "standard_format": "Border Terrier"
-    },
-    {
-        "ceo_format": "borzoi",
-        "standard_format": "Borzoi"
-    },
-    {
-        "ceo_format": "terrier-boston",
-        "standard_format": "Boston Terrier"
-    },
-    {
-        "ceo_format": "bouvier",
-        "standard_format": "Bouvier des Flandres"
-    },
-    {
-        "ceo_format": "boxer",
-        "standard_format": "Boxer"
-    },
-    {
-        "ceo_format": "briard",
-        "standard_format": "Briard"
-    },
-    {
-        "ceo_format": "spaniel-brittany",
-        "standard_format": "Brittany"
-    },
-    {
-        "ceo_format": "bulldog-english",
-        "standard_format": "Bulldog"
-    },
-    {
-        "ceo_format": "mastiff-bull",
-        "standard_format": "Bullmastiff"
-    },
-    {
-        "ceo_format": "terrier-cairn",
-        "standard_format": "Cairn Terrier"
-    },
-    {
-        "ceo_format": "corgi-cardigan",
-        "standard_format": "Cardigan Welsh Corgi"
-    },
-    {
-        "ceo_format": "ovcharka-caucasian",
-        "standard_format": "Caucasian Shepherd Dog"
-    },
-    {
-        "ceo_format": "retriever-chesapeake",
-        "standard_format": "Chesapeake Bay Retriever"
-    },
-    {
-        "ceo_format": "chihuahua",
-        "standard_format": "Chihuahua"
-    },
-    {
-        "ceo_format": "sharpei",
-        "standard_format": "Chinese Shar-Pei"
-    },
-    {
-        "ceo_format": "clumber",
-        "standard_format": "Clumber Spaniel"
-    },
-    {
-        "ceo_format": "spaniel-cocker",
-        "standard_format": "Cocker Spaniel"
-    },
-    {
-        "ceo_format": "cotondetulear",
-        "standard_format": "Coton de Tulear"
-    },
-    {
-        "ceo_format": "retriever-curly",
-        "standard_format": "Curly-Coated Retriever"
-    },
-    {
-        "ceo_format": "dachshund",
-        "standard_format": "Dachshund"
-    },
-    {
-        "ceo_format": "dalmatian",
-        "standard_format": "Dalmatian"
-    },
-    {
-        "ceo_format": "terrier-dandie",
-        "standard_format": "Dandie Dinmont Terrier"
-    },
-    {
-        "ceo_format": "doberman",
-        "standard_format": "Doberman Pinscher"
-    },
-    {
-        "ceo_format": "spaniel-cocker",
-        "standard_format": "English Cocker Spaniel"
-    },
-    {
-        "ceo_format": "setter-english",
-        "standard_format": "English Setter"
-    },
-    {
-        "ceo_format": "springer-english",
-        "standard_format": "English Springer Spaniel"
-    },
-    {
-        "ceo_format": "entlebucher",
-        "standard_format": "Entlebucher Mountain Dog"
-    },
-    {
-        "ceo_format": "finnish-lapphund",
-        "standard_format": "Finnish Lapphund"
-    },
-    {
-        "ceo_format": "retriever-flatcoated",
-        "standard_format": "Flat-Coated Retriever"
-    },
-    {
-        "ceo_format": "bulldog-french",
-        "standard_format": "French Bulldog"
-    },
-    {
-        "ceo_format": "pointer-germanlonghair",
-        "standard_format": "German Longhaired Pointer"
-    },
-    {
-        "ceo_format": "german-shepherd",
-        "standard_format": "German Shepherd Dog"
-    },
-    {
-        "ceo_format": "schnauzer-giant",
-        "standard_format": "Giant Schnauzer"
-    },
-    {
-        "ceo_format": "retriever-golden",
-        "standard_format": "Golden Retriever"
-    },
-    {
-        "ceo_format": "setter-gordon",
-        "standard_format": "Gordon Setter"
-    },
-    {
-        "ceo_format": "dane-great",
-        "standard_format": "Great Dane"
-    },
-    {
-        "ceo_format": "pyrenees",
-        "standard_format": "Great Pyrenees"
-    },
-    {
-        "ceo_format": "havanese",
-        "standard_format": "Havanese"
-    },
-    {
-        "ceo_format": "hound-ibizan",
-        "standard_format": "Ibizan Hound"
-    },
-    {
-        "ceo_format": "setter-irish",
-        "standard_format": "Irish Setter"
-    },
-    {
-        "ceo_format": "terrier-irish",
-        "standard_format": "Irish Terrier"
-    },
-    {
-        "ceo_format": "spaniel-irish",
-        "standard_format": "Irish Water Spaniel"
-    },
-    {
-        "ceo_format": "wolfhound-irish",
-        "standard_format": "Irish Wolfhound"
-    },
-    {
-        "ceo_format": "greyhound-italian",
-        "standard_format": "Italian Greyhound"
-    },
-    {
-        "ceo_format": "spitz-japanese",
-        "standard_format": "Japanese Spitz"
-    },
-    {
-        "ceo_format": "keeshond",
-        "standard_format": "Keeshond"
-    },
-    {
-        "ceo_format": "terrier-kerryblue",
-        "standard_format": "Kerry Blue Terrier"
-    },
-    {
-        "ceo_format": "komondor",
-        "standard_format": "Komondor"
-    },
-    {
-        "ceo_format": "kuvasz",
-        "standard_format": "Kuvasz"
-    },
-    {
-        "ceo_format": "labrador",
-        "standard_format": "Labrador Retriever"
-    },
-    {
-        "ceo_format": "terrier-lakeland",
-        "standard_format": "Lakeland Terrier"
-    },
-    {
-        "ceo_format": "leonberg",
-        "standard_format": "Leonberger"
-    },
-    {
-        "ceo_format": "lhasa",
-        "standard_format": "Lhasa Apso"
-    },
-    {
-        "ceo_format": "maltese",
-        "standard_format": "Maltese"
-    },
-    {
-        "ceo_format": "mastiff-english",
-        "standard_format": "Mastiff"
-    },
-    {
-        "ceo_format": "pinscher-miniature",
-        "standard_format": "Miniature Pinscher"
-    },
-    {
-        "ceo_format": "schnauzer-miniature",
-        "standard_format": "Miniature Schnauzer"
-    },
-    {
-        "ceo_format": "newfoundland",
-        "standard_format": "Newfoundland"
-    },
-    {
-        "ceo_format": "terrier-norfolk",
-        "standard_format": "Norfolk Terrier"
-    },
-    {
-        "ceo_format": "buhund-norwegian",
-        "standard_format": "Norwegian Buhund"
-    },
-    {
-        "ceo_format": "elkhound-norwegian",
-        "standard_format": "Norwegian Elkhound"
-    },
-    {
-        "ceo_format": "terrier-norwich",
-        "standard_format": "Norwich Terrier"
-    },
-    {
-        "ceo_format": "sheepdog-english",
-        "standard_format": "Old English Sheepdog"
-    },
-    {
-        "ceo_format": "otterhound",
-        "standard_format": "Otterhound"
-    },
-    {
-        "ceo_format": "papillon",
-        "standard_format": "Papillon"
-    },
-    {
-        "ceo_format": "pekinese",
-        "standard_format": "Pekingese"
-    },
-    {
-        "ceo_format": "pembroke",
-        "standard_format": "Pembroke Welsh Corgi"
-    },
-    {
-        "ceo_format": "hound-plott",
-        "standard_format": "Plott"
-    },
-    {
-        "ceo_format": "pomeranian",
-        "standard_format": "Pomeranian"
-    },
-    {
-        "ceo_format": "poodle-miniature",
-        "standard_format": "Poodle (Miniature)"
-    },
-    {
-        "ceo_format": "poodle-standard",
-        "standard_format": "Poodle (Standard)"
-    },
-    {
-        "ceo_format": "poodle-toy",
-        "standard_format": "Poodle (Toy)"
-    },
-    {
-        "ceo_format": "pug",
-        "standard_format": "Pug"
-    },
-    {
-        "ceo_format": "pyrenees",
-        "standard_format": "Pyrenean Mastiff"
-    },
-    {
-        "ceo_format": "pyrenees",
-        "standard_format": "Pyrenean Shepherd"
-    },
-    {
-        "ceo_format": "redbone",
-        "standard_format": "Redbone Coonhound"
-    },
-    {
-        "ceo_format": "ridgeback-rhodesian",
-        "standard_format": "Rhodesian Ridgeback"
-    },
-    {
-        "ceo_format": "rottweiler",
-        "standard_format": "Rottweiler"
-    },
-    {
-        "ceo_format": "terrier-russell",
-        "standard_format": "Russell Terrier"
-    },
-    {
-        "ceo_format": "stbernard",
-        "standard_format": "Saint Bernard"
-    },
-    {
-        "ceo_format": "saluki",
-        "standard_format": "Saluki"
-    },
-    {
-        "ceo_format": "samoyed",
-        "standard_format": "Samoyed"
-    },
-    {
-        "ceo_format": "schipperke",
-        "standard_format": "Schipperke"
-    },
-    {
-        "ceo_format": "deerhound-scottish",
-        "standard_format": "Scottish Deerhound"
-    },
-    {
-        "ceo_format": "terrier-scottish",
-        "standard_format": "Scottish Terrier"
-    },
-    {
-        "ceo_format": "terrier-sealyham",
-        "standard_format": "Sealyham Terrier"
-    },
-    {
-        "ceo_format": "segugio-italian",
-        "standard_format": "Segugio Italiano"
-    },
-    {
-        "ceo_format": "sheepdog-shetland",
-        "standard_format": "Shetland Sheepdog"
-    },
-    {
-        "ceo_format": "shiba",
-        "standard_format": "Shiba Inu"
-    },
-    {
-        "ceo_format": "shihtzu",
-        "standard_format": "Shih Tzu"
-    },
-    {
-        "ceo_format": "husky",
-        "standard_format": "Siberian Husky"
-    },
-    {
-        "ceo_format": "terrier-silky",
-        "standard_format": "Silky Terrier"
-    },
-    {
-        "ceo_format": "terrier-fox",
-        "standard_format": "Smooth Fox Terrier"
-    },
-    {
-        "ceo_format": "terrier-wheaten",
-        "standard_format": "Soft Coated Wheaten Terrier"
-    },
-    {
-        "ceo_format": "waterdog-spanish",
-        "standard_format": "Spanish Water Dog"
-    },
-    {
-        "ceo_format": "bullterrier-staffordshire",
-        "standard_format": "Staffordshire Bull Terrier"
-    },
-    {
-        "ceo_format": "spaniel-sussex",
-        "standard_format": "Sussex Spaniel"
-    },
-    {
-        "ceo_format": "mastiff-tibetan",
-        "standard_format": "Tibetan Mastiff"
-    },
-    {
-        "ceo_format": "terrier-tibetan",
-        "standard_format": "Tibetan Terrier"
-    },
-    {
-        "ceo_format": "terrier-toy",
-        "standard_format": "Toy Fox Terrier"
-    },
-    {
-        "ceo_format": "vizsla",
-        "standard_format": "Vizsla"
-    },
-    {
-        "ceo_format": "weimaraner",
-        "standard_format": "Weimaraner"
-    },
-    {
-        "ceo_format": "terrier-welsh",
-        "standard_format": "Welsh Terrier"
-    },
-    {
-        "ceo_format": "terrier-westhighland",
-        "standard_format": "West Highland White Terrier"
-    },
-    {
-        "ceo_format": "whippet",
-        "standard_format": "Whippet"
-    },
-    {
-        "ceo_format": "terrier-fox",
-        "standard_format": "Wire Fox Terrier"
-    },
-    {
-        "ceo_format": "vizsla",
-        "standard_format": "Wirehaired Vizsla"
-    },
-    {
-        "ceo_format": "terrier-yorkshire",
-        "standard_format": "Yorkshire Terrier"
-    }
+  {
+    "ceo_format": "affenpinscher",
+    "standard_format": "Affenpinscher",
+    "category": "Toy Group"
+  },
+  {
+    "ceo_format": "hound-afghan",
+    "standard_format": "Afghan Hound",
+    "category": "Hound Group"
+  },
+  {
+    "ceo_format": "airedale",
+    "standard_format": "Airedale Terrier",
+    "category": "Terrier Group"
+  },
+  {
+    "ceo_format": "akita",
+    "standard_format": "Akita",
+    "category": "Working Group"
+  },
+  {
+    "ceo_format": "malamute",
+    "standard_format": "Alaskan Malamute",
+    "category": "Working Group"
+  },
+  {
+    "ceo_format": "eskimo",
+    "standard_format": "American Eskimo Dog",
+    "category": "Non-Sporting Group"
+  },
+  {
+    "ceo_format": "appenzeller",
+    "standard_format": "Appenzeller Sennenhund",
+    "category": "Herding Group"
+  },
+  {
+    "ceo_format": "cattledog-australian",
+    "standard_format": "Australian Cattle Dog",
+    "category": "Herding Group"
+  },
+  {
+    "ceo_format": "australian-kelpie",
+    "standard_format": "Australian Kelpie",
+    "category": "Herding Group"
+  },
+  {
+    "ceo_format": "australian-shepherd",
+    "standard_format": "Australian Shepherd",
+    "category": "Herding Group"
+  },
+  {
+    "ceo_format": "terrier-australian",
+    "standard_format": "Australian Terrier",
+    "category": "Terrier Group"
+  },
+  {
+    "ceo_format": "basenji",
+    "standard_format": "Basenji",
+    "category": "Hound Group"
+  },
+  {
+    "ceo_format": "hound-basset",
+    "standard_format": "Basset Hound",
+    "category": "Hound Group"
+  },
+  {
+    "ceo_format": "beagle",
+    "standard_format": "Beagle",
+    "category": "Hound Group"
+  },
+  {
+    "ceo_format": "terrier-bedlington",
+    "standard_format": "Bedlington Terrier",
+    "category": "Terrier Group"
+  },
+  {
+    "ceo_format": "malinois",
+    "standard_format": "Belgian Malinois",
+    "category": "Herding Group"
+  },
+  {
+    "ceo_format": "tervuren",
+    "standard_format": "Belgian Tervuren",
+    "category": "Herding Group"
+  },
+  {
+    "ceo_format": "frise-bichon",
+    "standard_format": "Bichon Frise",
+    "category": "Toy Group"
+  },
+  {
+    "ceo_format": "hound-blood",
+    "standard_format": "Bloodhound",
+    "category": "Hound Group"
+  },
+  {
+    "ceo_format": "bluetick",
+    "standard_format": "Bluetick Coonhound",
+    "category": "Hound Group"
+  },
+  {
+    "ceo_format": "collie-border",
+    "standard_format": "Border Collie",
+    "category": "Herding Group"
+  },
+  {
+    "ceo_format": "terrier-border",
+    "standard_format": "Border Terrier",
+    "category": "Terrier Group"
+  },
+  {
+    "ceo_format": "borzoi",
+    "standard_format": "Borzoi",
+    "category": "Hound Group"
+  },
+  {
+    "ceo_format": "terrier-boston",
+    "standard_format": "Boston Terrier",
+    "category": "Terrier Group"
+  },
+  {
+    "ceo_format": "bouvier",
+    "standard_format": "Bouvier des Flandres",
+    "category": "Herding Group"
+  },
+  {
+    "ceo_format": "boxer",
+    "standard_format": "Boxer",
+    "category": "Working Group"
+  },
+  {
+    "ceo_format": "briard",
+    "standard_format": "Briard",
+    "category": "Herding Group"
+  },
+  {
+    "ceo_format": "spaniel-brittany",
+    "standard_format": "Brittany",
+    "category": "Sporting Group"
+  },
+  {
+    "ceo_format": "bulldog-english",
+    "standard_format": "Bulldog",
+    "category": "Non-Sporting Group"
+  },
+  {
+    "ceo_format": "mastiff-bull",
+    "standard_format": "Bullmastiff",
+    "category": "Working Group"
+  },
+  {
+    "ceo_format": "terrier-cairn",
+    "standard_format": "Cairn Terrier",
+    "category": "Terrier Group"
+  },
+  {
+    "ceo_format": "corgi-cardigan",
+    "standard_format": "Cardigan Welsh Corgi",
+    "category": "Herding Group"
+  },
+  {
+    "ceo_format": "ovcharka-caucasian",
+    "standard_format": "Caucasian Shepherd Dog",
+    "category": "Working Group"
+  },
+  {
+    "ceo_format": "retriever-chesapeake",
+    "standard_format": "Chesapeake Bay Retriever",
+    "category": "Sporting Group"
+  },
+  {
+    "ceo_format": "chihuahua",
+    "standard_format": "Chihuahua",
+    "category": "Toy Group"
+  },
+  {
+    "ceo_format": "sharpei",
+    "standard_format": "Chinese Shar-Pei",
+    "category": "Non-Sporting Group"
+  },
+  {
+    "ceo_format": "clumber",
+    "standard_format": "Clumber Spaniel",
+    "category": "Sporting Group"
+  },
+  {
+    "ceo_format": "spaniel-cocker",
+    "standard_format": "Cocker Spaniel",
+    "category": "Sporting Group"
+  },
+  {
+    "ceo_format": "cotondetulear",
+    "standard_format": "Coton de Tulear",
+    "category": "Non-Sporting Group"
+  },
+  {
+    "ceo_format": "retriever-curly",
+    "standard_format": "Curly-Coated Retriever",
+    "category": "Sporting Group"
+  },
+  {
+    "ceo_format": "dachshund",
+    "standard_format": "Dachshund",
+    "category": "Hound Group"
+  },
+  {
+    "ceo_format": "dalmatian",
+    "standard_format": "Dalmatian",
+    "category": "Sporting Group"
+  },
+  {
+    "ceo_format": "terrier-dandie",
+    "standard_format": "Dandie Dinmont Terrier",
+    "category": "Terrier Group"
+  },
+  {
+    "ceo_format": "doberman",
+    "standard_format": "Doberman Pinscher",
+    "category": "Working Group"
+  },
+  {
+    "ceo_format": "spaniel-cocker",
+    "standard_format": "English Cocker Spaniel",
+    "category": "Sporting Group"
+  },
+  {
+    "ceo_format": "setter-english",
+    "standard_format": "English Setter",
+    "category": "Sporting Group"
+  },
+  {
+    "ceo_format": "springer-english",
+    "standard_format": "English Springer Spaniel",
+    "category": "Sporting Group"
+  },
+  {
+    "ceo_format": "entlebucher",
+    "standard_format": "Entlebucher Mountain Dog",
+    "category": "Herding Group"
+  },
+  {
+    "ceo_format": "finnish-lapphund",
+    "standard_format": "Finnish Lapphund",
+    "category": "Herding Group"
+  },
+  {
+    "ceo_format": "retriever-flatcoated",
+    "standard_format": "Flat-Coated Retriever",
+    "category": "Sporting Group"
+  },
+  {
+    "ceo_format": "bulldog-french",
+    "standard_format": "French Bulldog",
+    "category": "Non-Sporting Group"
+  },
+  {
+    "ceo_format": "pointer-germanlonghair",
+    "standard_format": "German Longhaired Pointer",
+    "category": "Herding Group"
+  },
+  {
+    "ceo_format": "german-shepherd",
+    "standard_format": "German Shepherd Dog",
+    "category": "Working Group"
+  },
+  {
+    "ceo_format": "schnauzer-giant",
+    "standard_format": "Giant Schnauzer",
+    "category": "Working Group"
+  },
+  {
+    "ceo_format": "retriever-golden",
+    "standard_format": "Golden Retriever",
+    "category": "Sporting Group"
+  },
+  {
+    "ceo_format": "setter-gordon",
+    "standard_format": "Gordon Setter",
+    "category": "Sporting Group"
+  },
+  {
+    "ceo_format": "dane-great",
+    "standard_format": "Great Dane",
+    "category": "Working Group"
+  },
+  {
+    "ceo_format": "pyrenees",
+    "standard_format": "Great Pyrenees",
+    "category": "Working Group"
+  },
+  {
+    "ceo_format": "havanese",
+    "standard_format": "Havanese",
+    "category": "Toy Group"
+  },
+  {
+    "ceo_format": "hound-ibizan",
+    "standard_format": "Ibizan Hound",
+    "category": "Hound Group"
+  },
+  {
+    "ceo_format": "setter-irish",
+    "standard_format": "Irish Setter",
+    "category": "Sporting Group"
+  },
+  {
+    "ceo_format": "terrier-irish",
+    "standard_format": "Irish Terrier",
+    "category": "Terrier Group"
+  },
+  {
+    "ceo_format": "spaniel-irish",
+    "standard_format": "Irish Water Spaniel",
+    "category": "Sporting Group"
+  },
+  {
+    "ceo_format": "wolfhound-irish",
+    "standard_format": "Irish Wolfhound",
+    "category": "Hound Group"
+  },
+  {
+    "ceo_format": "greyhound-italian",
+    "standard_format": "Italian Greyhound",
+    "category": "Hound Group"
+  },
+  {
+    "ceo_format": "spitz-japanese",
+    "standard_format": "Japanese Spitz",
+    "category": "Toy Group"
+  },
+  {
+    "ceo_format": "keeshond",
+    "standard_format": "Keeshond",
+    "category": "Non-Sporting Group"
+  },
+  {
+    "ceo_format": "terrier-kerryblue",
+    "standard_format": "Kerry Blue Terrier",
+    "category": "Terrier Group"
+  },
+  {
+    "ceo_format": "komondor",
+    "standard_format": "Komondor",
+    "category": "Working Group"
+  },
+  {
+    "ceo_format": "kuvasz",
+    "standard_format": "Kuvasz",
+    "category": "Working Group"
+  },
+  {
+    "ceo_format": "labrador",
+    "standard_format": "Labrador Retriever",
+    "category": "Sporting Group"
+  },
+  {
+    "ceo_format": "terrier-lakeland",
+    "standard_format": "Lakeland Terrier",
+    "category": "Terrier Group"
+  },
+  {
+    "ceo_format": "leonberg",
+    "standard_format": "Leonberger",
+    "category": "Working Group"
+  },
+  {
+    "ceo_format": "lhasa",
+    "standard_format": "Lhasa Apso",
+    "category": "Toy Group"
+  },
+  {
+    "ceo_format": "maltese",
+    "standard_format": "Maltese",
+    "category": "Toy Group"
+  },
+  {
+    "ceo_format": "mastiff-english",
+    "standard_format": "Mastiff",
+    "category": "Working Group"
+  },
+  {
+    "ceo_format": "pinscher-miniature",
+    "standard_format": "Miniature Pinscher",
+    "category": "Toy Group"
+  },
+  {
+    "ceo_format": "schnauzer-miniature",
+    "standard_format": "Miniature Schnauzer",
+    "category": "Terrier Group"
+  },
+  {
+    "ceo_format": "newfoundland",
+    "standard_format": "Newfoundland",
+    "category": "Working Group"
+  },
+  {
+    "ceo_format": "terrier-norfolk",
+    "standard_format": "Norfolk Terrier",
+    "category": "Terrier Group"
+  },
+  {
+    "ceo_format": "buhund-norwegian",
+    "standard_format": "Norwegian Buhund",
+    "category": "Herding Group"
+  },
+  {
+    "ceo_format": "elkhound-norwegian",
+    "standard_format": "Norwegian Elkhound",
+    "category": "Hound Group"
+  },
+  {
+    "ceo_format": "terrier-norwich",
+    "standard_format": "Norwich Terrier",
+    "category": "Terrier Group"
+  },
+  {
+    "ceo_format": "sheepdog-english",
+    "standard_format": "Old English Sheepdog",
+    "category": "Herding Group"
+  },
+  {
+    "ceo_format": "otterhound",
+    "standard_format": "Otterhound",
+    "category": "Hound Group"
+  },
+  {
+    "ceo_format": "papillon",
+    "standard_format": "Papillon",
+    "category": "Toy Group"
+  },
+  {
+    "ceo_format": "pekinese",
+    "standard_format": "Pekingese",
+    "category": "Toy Group"
+  },
+  {
+    "ceo_format": "pembroke",
+    "standard_format": "Pembroke Welsh Corgi",
+    "category": "Herding Group"
+  },
+  {
+    "ceo_format": "hound-plott",
+    "standard_format": "Plott",
+    "category": "Hound Group"
+  },
+  {
+    "ceo_format": "pomeranian",
+    "standard_format": "Pomeranian",
+    "category": "Toy Group"
+  },
+  {
+    "ceo_format": "poodle-miniature",
+    "standard_format": "Poodle (Miniature)",
+    "category": "Non-Sporting Group"
+  },
+  {
+    "ceo_format": "poodle-standard",
+    "standard_format": "Poodle (Standard)",
+    "category": "Non-Sporting Group"
+  },
+  {
+    "ceo_format": "poodle-toy",
+    "standard_format": "Poodle (Toy)",
+    "category": "Toy Group"
+  },
+  {
+    "ceo_format": "pug",
+    "standard_format": "Pug",
+    "category": "Toy Group"
+  },
+  {
+    "ceo_format": "pyrenees",
+    "standard_format": "Pyrenean Mastiff",
+    "category": "Working Group"
+  },
+  {
+    "ceo_format": "pyrenees",
+    "standard_format": "Pyrenean Shepherd",
+    "category": "Herding Group"
+  },
+  {
+    "ceo_format": "redbone",
+    "standard_format": "Redbone Coonhound",
+    "category": "Hound Group"
+  },
+  {
+    "ceo_format": "ridgeback-rhodesian",
+    "standard_format": "Rhodesian Ridgeback",
+    "category": "Hound Group"
+  },
+  {
+    "ceo_format": "rottweiler",
+    "standard_format": "Rottweiler",
+    "category": "Working Group"
+  },
+  {
+    "ceo_format": "terrier-russell",
+    "standard_format": "Russell Terrier",
+    "category": "Terrier Group"
+  },
+  {
+    "ceo_format": "stbernard",
+    "standard_format": "Saint Bernard",
+    "category": "Working Group"
+  },
+  {
+    "ceo_format": "saluki",
+    "standard_format": "Saluki",
+    "category": "Hound Group"
+  },
+  {
+    "ceo_format": "samoyed",
+    "standard_format": "Samoyed",
+    "category": "Working Group"
+  },
+  {
+    "ceo_format": "schipperke",
+    "standard_format": "Schipperke",
+    "category": "Non-Sporting Group"
+  },
+  {
+    "ceo_format": "deerhound-scottish",
+    "standard_format": "Scottish Deerhound",
+    "category": "Hound Group"
+  },
+  {
+    "ceo_format": "terrier-scottish",
+    "standard_format": "Scottish Terrier",
+    "category": "Terrier Group"
+  },
+  {
+    "ceo_format": "terrier-sealyham",
+    "standard_format": "Sealyham Terrier",
+    "category": "Terrier Group"
+  },
+  {
+    "ceo_format": "segugio-italian",
+    "standard_format": "Segugio Italiano",
+    "category": "Hound Group"
+  },
+  {
+    "ceo_format": "sheepdog-shetland",
+    "standard_format": "Shetland Sheepdog",
+    "category": "Herding Group"
+  },
+  {
+    "ceo_format": "shiba",
+    "standard_format": "Shiba Inu",
+    "category": "Non-Sporting Group"
+  },
+  {
+    "ceo_format": "shihtzu",
+    "standard_format": "Shih Tzu",
+    "category": "Toy Group"
+  },
+  {
+    "ceo_format": "husky",
+    "standard_format": "Siberian Husky",
+    "category": "Working Group"
+  },
+  {
+    "ceo_format": "terrier-silky",
+    "standard_format": "Silky Terrier",
+    "category": "Toy Group"
+  },
+  {
+    "ceo_format": "terrier-fox",
+    "standard_format": "Smooth Fox Terrier",
+    "category": "Terrier Group"
+  },
+  {
+    "ceo_format": "terrier-wheaten",
+    "standard_format": "Soft Coated Wheaten Terrier",
+    "category": "Terrier Group"
+  },
+  {
+    "ceo_format": "waterdog-spanish",
+    "standard_format": "Spanish Water Dog",
+    "category": "Herding Group"
+  },
+  {
+    "ceo_format": "bullterrier-staffordshire",
+    "standard_format": "Staffordshire Bull Terrier",
+    "category": "Terrier Group"
+  },
+  {
+    "ceo_format": "spaniel-sussex",
+    "standard_format": "Sussex Spaniel",
+    "category": "Sporting Group"
+  },
+  {
+    "ceo_format": "mastiff-tibetan",
+    "standard_format": "Tibetan Mastiff",
+    "category": "Working Group"
+  },
+  {
+    "ceo_format": "terrier-tibetan",
+    "standard_format": "Tibetan Terrier",
+    "category": "Non-Sporting Group"
+  },
+  {
+    "ceo_format": "terrier-toy",
+    "standard_format": "Toy Fox Terrier",
+    "category": "Toy Group"
+  },
+  {
+    "ceo_format": "vizsla",
+    "standard_format": "Vizsla",
+    "category": "Sporting Group"
+  },
+  {
+    "ceo_format": "weimaraner",
+    "standard_format": "Weimaraner",
+    "category": "Sporting Group"
+  },
+  {
+    "ceo_format": "terrier-welsh",
+    "standard_format": "Welsh Terrier",
+    "category": "Terrier Group"
+  },
+  {
+    "ceo_format": "terrier-westhighland",
+    "standard_format": "West Highland White Terrier",
+    "category": "Terrier Group"
+  },
+  {
+    "ceo_format": "whippet",
+    "standard_format": "Whippet",
+    "category": "Hound Group"
+  },
+  {
+    "ceo_format": "terrier-fox",
+    "standard_format": "Wire Fox Terrier",
+    "category": "Terrier Group"
+  },
+  {
+    "ceo_format": "vizsla",
+    "standard_format": "Wirehaired Vizsla",
+    "category": "Sporting Group"
+  },
+  {
+    "ceo_format": "terrier-yorkshire",
+    "standard_format": "Yorkshire Terrier",
+    "category": "Toy Group"
+  }
 ]

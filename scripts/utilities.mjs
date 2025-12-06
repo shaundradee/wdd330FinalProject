@@ -27,17 +27,6 @@ export async function loadHeaderFooter() {
     });
 }
 
-// menu toggle functionality
-export function initMenuToggle() {
-    const menuBtn = document.getElementById("menu-toggle");
-    const navLinks = document.querySelector(".menu-wrap .navlinks");
-
-    menuBtn.addEventListener("click", (e) => {
-        e.preventDefault(); // keep the page from jumping to top
-        navLinks.classList.toggle("show");
-        navLinks.classList.toggle("hidden");
-    });
-}
 
 // Basic breed template for breed listings
 // Will be used in breeds.js and favorites.js (will edit returned once available data from api is finalized)
@@ -114,4 +103,24 @@ export function removeFromStorage(key) {
   }
 }
 
+/**
+ * Convert a ceo_format string into a Dog CEO API path.
+ * Example: "terrier-norwich" → "terrier/norwich"
+ *          "affenpinscher" → "affenpinscher"
+ */
+export function formatCeoPath(ceoFormat) {
+    return ceoFormat.includes("-")
+      ? ceoFormat.replace("-", "/")
+      : ceoFormat;
+}
 
+// Generate HTML markup for breed details card
+export function buildBreedDetailsCard(attrs) {
+  return `
+    <p><strong>Description:</strong> ${attrs.description}</p>
+    <p><strong>Life span:</strong> ${attrs.life.min}-${attrs.life.max} years</p>
+    <p><strong>Male weight:</strong> ${attrs.male_weight.min}-${attrs.male_weight.max} kg</p>
+    <p><strong>Female weight:</strong> ${attrs.female_weight.min}-${attrs.female_weight.max} kg</p>
+    <p><strong>Hypoallergenic:</strong> ${attrs.hypoallergenic ? "Yes" : "No"}</p>
+    `;
+}

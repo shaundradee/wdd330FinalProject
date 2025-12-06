@@ -1,56 +1,41 @@
-import {loadHeaderFooter, initMenuToggle, breedDetailTemplate} from './utilities.mjs';
+import { loadHeaderFooter, getFromStorage, formatCeoPath, buildBreedDetailsCard } from './utilities.mjs';
+import { isFavorite, toggleFavorite, getFavoriteIcon } from "./favoritesManager.mjs";
 
 loadHeaderFooter();
-initMenuToggle();
-
-// import {getBreedById} from './api.mjs';
-
-// const breedId = new URLSearchParams(window.location.search).get('id');
-
-document.addEventListener("DOMContentLoaded", () => {
-    loadHeaderFooter();
-});
-
-import { getFromStorage } from "./utilities.mjs";
 
 document.addEventListener("DOMContentLoaded", async () => {
-  const breed = getFromStorage("spotlightBreed"); // stored in homepage
+  const breed = getFromStorage("spotlightBreed");
   const title = document.getElementById("breed-title");
   const image = document.getElementById("breed-image");
   const info = document.getElementById("breed-info");
+  const favIcon = document.getElementById("favorite-icon");
 
   if (!breed) {
     title.textContent = "No breed selected.";
     return;
   }
 
-  title.textContent = breed;
+  const { ceo_format, standard_format } = breed;
+  title.textContent = standard_format;
+
+  // Favorites icon setup
+  let favState = isFavorite(breed);
+  favIcon.innerHTML = getFavoriteIcon(favState);
+  favIcon.addEventListener("click", () => {
+    favState = toggleFavorite(breed);
+    favIcon.innerHTML = getFavoriteIcon(favState);
+  });
 
   try {
-    // 1. Fetch image from Dog CEO
-    const imgRes = await fetch(`https://dog.ceo/api/breed/${breed}/images/random`);
-    const imgData = await imgRes.json();
-    image.src = imgData.message;
-    image.alt = `Image of a ${breed}`;
-
-    // 2. Fetch details from Dog API
-    const detailsRes = await fetch("https://dogapi.dog/api/v2/breeds");
+    // Dog API details
+    const detailsRes = await fetch("https://dogapi.dog/api/v2/breeds?page[size]=1000");
     const detailsData = await detailsRes.json();
-
-    // Find the breed object by name
-    const breedDetails = detailsData.data.find(
-      (b) => b.attributes.name.toLowerCase() === breed.toLowerCase()
+    const match = detailsData.data.find(
+      b => b.attributes.name.toLowerCase() === standard_format.toLowerCase()
     );
 
-    if (breedDetails) {
-      const attrs = breedDetails.attributes;
-      info.innerHTML = `
-        <p><strong>Description:</strong> ${attrs.description}</p>
-        <p><strong>Life span:</strong> ${attrs.life.min}–${attrs.life.max} years</p>
-        <p><strong>Male weight:</strong> ${attrs.male_weight.min}–${attrs.male_weight.max} kg</p>
-        <p><strong>Female weight:</strong> ${attrs.female_weight.min}–${attrs.female_weight.max} kg</p>
-        <p><strong>Hypoallergenic:</strong> ${attrs.hypoallergenic ? "Yes" : "No"}</p>
-      `;
+    if (match) {
+      info.innerHTML = buildBreedDetailsCard(match.attributes);
     } else {
       info.textContent = "Breed details not found.";
     }
@@ -58,4 +43,31 @@ document.addEventListener("DOMContentLoaded", async () => {
     console.error(err);
     info.textContent = "Couldn't load breed details. Please try again later.";
   }
+
+  // Carousel effect: refresh image every 5 seconds
+  const ceoPath = formatCeoPath(ceo_format);
+
+  async function loadRandomImage() {
+    try {
+      // Add ripple class before updating src
+      image.classList.remove("ripple"); // reset
+      void image.offsetWidth; // force reflow so animation restarts
+  
+      const imgRes = await fetch(`https://dog.ceo/api/breed/${ceoPath}/images/random`);
+      const imgData = await imgRes.json();
+      image.src = imgData.message;
+      image.alt = `Image of a ${standard_format}`;
+  
+      // Trigger ripple animation
+      image.classList.add("ripple");
+    } catch (err) {
+      console.error("Error loading image:", err);
+    }
+  }
+
+  // Initial image
+  loadRandomImage();
+
+  // Silent reload every 5 seconds
+  setInterval(loadRandomImage, 5000);
 });

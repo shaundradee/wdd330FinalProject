@@ -200,7 +200,7 @@ header a:hover {
   border: 3px solid var(--card-border);
   border-radius: var(--card-radius);
   padding: 1rem;
-  box-shadow: 0 6px 12px rgba(0,0,0,0.08);
+  box-shadow: 0 6px 12px rgba(163, 210, 202, 0.08);
   display: flex;
   flex-direction: column;
   gap: 0.75rem;
@@ -234,7 +234,10 @@ header a:hover {
 }
 
 /* Buttons */
-.btn {
+.btn,
+#load-more,
+.cat-btn,
+#clear-favorites {
   display: inline-block;
   padding: 0.6rem 1rem;
   border-radius: 0.6rem;
@@ -247,13 +250,19 @@ header a:hover {
 }
 
 .btn-primary,
-.btn-secondary {
+.btn-secondary,
+#load-more,
+.cat-btn,
+#clear-favorites  {
   background: var(--color-primary);
   border: 2px solid var(--color-primary);
 }
 
 .btn-primary:hover,
-.btn-secondary:hover {
+.btn-secondary:hover,
+#load-more:hover,
+.cat-btn:hover,
+#clear-favorites:hover {
   background: var(--color-secondary);
   border-color: var(--color-secondary);
   color: var(--color-neutral-light);
@@ -363,4 +372,182 @@ footer {
     color: var(--color-neutral-light);
     font-size: 15px;
     border-top: 4px solid var(--color-primary);
+}
+
+/* ===================================================================== */
+/* ===================================================================== */
+/* ===================================================================== */
+/* Styles for navpages and other shared components can go here */
+/* ===================================================================== */
+
+/*=====================================================================*/
+/* details PAGE STYLES */
+/*=====================================================================*/
+
+/* Container for the details page */
+.details-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+/* Breed title */
+#breed-title {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  display: inline-block;
+}
+
+/* Favorite icon next to title (inline option) */
+#favorite-icon {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 0.5rem;
+  cursor: pointer;
+}
+
+/* Overlay option: icon on top of image */
+.details-page {
+  position: relative;
+}
+
+#breed-image {
+  width: 100%;
+  max-height: 400px;
+  object-fit: contain; /* maintain aspect ratio of random images being loaded */
+  background-color: var(--color-accent); /* fill empty space */
+  border-radius: 8px;
+  display: block;
+  margin-bottom: 1rem;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Ripple effect keyframes */
+@keyframes rippleReveal {
+  0% { clip-path: circle(0% at 50% 50%); opacity: 0; }
+  100% { clip-path: circle(150% at 50% 50%); opacity: 1; }
+}
+
+/* Apply ripple when swapping */
+#breed-image.ripple {
+  animation: rippleReveal 1s ease forwards;
+}
+
+#favorite-icon.overlay {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  cursor: pointer;
+  z-index: 10;
+}
+
+/* Icon styling */
+.saved-icon,
+.unsaved-icon {
+  width: 30px;
+  height: 30px;
+  transition: transform 0.2s ease;
+}
+
+.saved-icon:hover,
+.unsaved-icon:hover {
+  transform: scale(1.2);
+}
+
+/* ===================================================================== */
+/* breeds and favorites PAGE STYLES */
+/* ===================================================================== */
+/* Gallery container */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1rem; /* spacing between cards */
+  justify-items: center; /* center cards in their grid cell */
+  padding: 1rem;
+}
+
+/* Card container */
+.breed-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.75rem;
+  width: 100%; /* card fills its grid cell */
+  max-width: 220px; /* keeps consistent card size */
+}
+
+/* carrd hover effect */
+.breed-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(163, 210, 202, 0.377);
+}
+
+/* wrapper for image and text */
+.thumb-wrapper {
+  position: relative;
+  width: 100%;
+  height: 160px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* Blurred background layer */
+.thumb-wrapper::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: var(--thumb-url);
+  background-size: cover;
+  background-position: center;
+  filter: blur(12px);
+  transform: scale(1.1);
+}
+
+/* Foreground image */
+.breed-thumb {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  z-index: 1;
+}
+
+/* Breed name */
+.breed-card h3 {
+  font-size: 1.2rem;
+  margin: 0.25rem 0;
+  text-align: center;
+  color: var(--color-primary);
+}
+
+/* Breed category */
+.breed-card p {
+  font-size: 0.9rem;
+  color: #555;
+  margin: 0.25rem 0 0.5rem;
+  text-align: center;
+}
+
+/* Favorite icon */
+.favorite-icon {
+  margin-top: auto;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.favorite-icon img {
+  width: 28px;
+  height: 28px;
+  transition: transform 0.2s ease;
+}
+
+.favorite-icon img:hover {
+  transform: scale(1.2);
 }
