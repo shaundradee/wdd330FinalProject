@@ -37,8 +37,8 @@ export function toggleFavorite(breed) {
  */
 export function getFavoriteIcon(isFav) {
     return isFav
-      ? `<img class="saved-icon" src="/images/heart_paw_faves.svg" alt="saved to favorites" height="30" width="30" />`
-      : `<img class="unsaved-icon" src="/images/heart_paw.svg" alt="save to favorites" height="30" width="30" />`;
+      ? `<img class="saved-icon" src="../images/heart_paw_faves.svg" alt="saved to favorites" height="30" width="30" />`
+      : `<img class="unsaved-icon" src="../images/heart_paw.svg" alt="save to favorites" height="30" width="30" />`;
 }
 
 
