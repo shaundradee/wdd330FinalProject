@@ -76,6 +76,12 @@ export async function initSpotlight() {
     spotlightImage.alt = `Image of a ${standardBreed}`;
     spotlightImage.hidden = false;
 
+    // This line to set blurred background
+    const spotlightMedia = document.querySelector(".spotlight-media");
+    if (spotlightMedia) {
+      spotlightMedia.style.setProperty("--spotlight-url", `url(${imgData.message})`);
+    }
+
     spotlightInfo.textContent = `Breed: ${standardBreed}`;
 
     // 6. Save both formats for details page

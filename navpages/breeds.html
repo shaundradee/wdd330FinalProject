@@ -21,23 +21,35 @@
     <main class="breeds-page">
         <h1>Breeds</h1>
         
-        <!-- Category filter buttons -->
+        <!-- Filter buttons -->
         <section id="breed-filters">
-            <button class="cat-btn" data-category="All">All</button>
-            <button class="cat-btn" data-category="Toy Group">Toy Group</button>
-            <button class="cat-btn" data-category="Hound Group">Hound Group</button>
-            <button class="cat-btn" data-category="Terrier Group">Terrier Group</button>
-            <button class="cat-btn" data-category="Working Group">Working Group</button>
-            <button class="cat-btn" data-category="Herding Group">Herding Group</button>
-            <button class="cat-btn" data-category="Sporting Group">Sporting Group</button>
-            <button class="cat-btn" data-category="Non-Sporting Group">Non-Sporting Group</button>
+            <!-- Category filters -->
+            <div class="category-filters">
+                <h2>Filter by Category</h2>
+                <button class="cat-btn" data-category="All">All</button>
+                <button class="cat-btn" data-category="Toy Group">Toy Group</button>
+                <button class="cat-btn" data-category="Hound Group">Hound Group</button>
+                <button class="cat-btn" data-category="Terrier Group">Terrier Group</button>
+                <button class="cat-btn" data-category="Working Group">Working Group</button>
+                <button class="cat-btn" data-category="Herding Group">Herding Group</button>
+                <button class="cat-btn" data-category="Sporting Group">Sporting Group</button>
+                <button class="cat-btn" data-category="Non-Sporting Group">Non-Sporting Group</button>
+            </div>
+
+            <!-- Coat type filters -->
+            <div class="coat-filters">
+                <h2>Filter by Coat Type</h2>
+                <button class="coat-btn" data-coat="smooth_short">Smooth / Short Coat</button>
+                <button class="coat-btn" data-coat="medium_double">Medium / Double Coat</button>
+                <button class="coat-btn" data-coat="long">Long Coat</button>
+                <button class="coat-btn" data-coat="wire_rough">Wire / Rough Coat</button>
+                <button class="coat-btn" data-coat="curly_wavy">Curly / Wavy Coat</button>
+            </div>
         </section>
         
         <!-- Breed thumbnails -->
         <section id="breed-gallery" class="gallery"></section>
-
-        <!-- Faster loading response -->
-        <button id="load-more">Load More</button>
+        <div id="loading-spinner" class="spinner" style="display:none;"></div>
     </main>
     <footer id="footer"></footer>
 </body>

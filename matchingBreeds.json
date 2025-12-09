@@ -2,646 +2,781 @@
   {
     "ceo_format": "affenpinscher",
     "standard_format": "Affenpinscher",
-    "category": "Toy Group"
+    "category": "Toy Group",
+    "coat_type": "long"
   },
   {
     "ceo_format": "hound-afghan",
     "standard_format": "Afghan Hound",
-    "category": "Hound Group"
+    "category": "Hound Group",
+    "coat_type": "long"
   },
   {
     "ceo_format": "airedale",
     "standard_format": "Airedale Terrier",
-    "category": "Terrier Group"
+    "category": "Terrier Group",
+    "coat_type": "wire_rough"
   },
   {
     "ceo_format": "akita",
     "standard_format": "Akita",
-    "category": "Working Group"
+    "category": "Working Group",
+    "coat_type": "medium_double"
   },
   {
     "ceo_format": "malamute",
     "standard_format": "Alaskan Malamute",
-    "category": "Working Group"
+    "category": "Working Group",
+    "coat_type": "medium_double"
   },
   {
     "ceo_format": "eskimo",
     "standard_format": "American Eskimo Dog",
-    "category": "Non-Sporting Group"
+    "category": "Non-Sporting Group",
+    "coat_type": "medium_double"
   },
   {
     "ceo_format": "appenzeller",
     "standard_format": "Appenzeller Sennenhund",
-    "category": "Herding Group"
+    "category": "Herding Group",
+    "coat_type": "medium_double"
   },
   {
     "ceo_format": "cattledog-australian",
     "standard_format": "Australian Cattle Dog",
-    "category": "Herding Group"
+    "category": "Herding Group",
+    "coat_type": "medium_double"
   },
   {
     "ceo_format": "australian-kelpie",
     "standard_format": "Australian Kelpie",
-    "category": "Herding Group"
+    "category": "Herding Group",
+    "coat_type": "medium_double"
   },
   {
     "ceo_format": "australian-shepherd",
     "standard_format": "Australian Shepherd",
-    "category": "Herding Group"
+    "category": "Herding Group",
+    "coat_type": "medium_double"
   },
   {
     "ceo_format": "terrier-australian",
     "standard_format": "Australian Terrier",
-    "category": "Terrier Group"
+    "category": "Terrier Group",
+    "coat_type": "wire_rough"
   },
   {
     "ceo_format": "basenji",
     "standard_format": "Basenji",
-    "category": "Hound Group"
+    "category": "Hound Group",
+    "coat_type": "smooth_short"
   },
   {
     "ceo_format": "hound-basset",
     "standard_format": "Basset Hound",
-    "category": "Hound Group"
+    "category": "Hound Group",
+    "coat_type": "smooth_short"
   },
   {
     "ceo_format": "beagle",
     "standard_format": "Beagle",
-    "category": "Hound Group"
+    "category": "Hound Group",
+    "coat_type": "smooth_short"
   },
   {
     "ceo_format": "terrier-bedlington",
     "standard_format": "Bedlington Terrier",
-    "category": "Terrier Group"
+    "category": "Terrier Group",
+    "coat_type": "wire_rough"
   },
   {
     "ceo_format": "malinois",
     "standard_format": "Belgian Malinois",
-    "category": "Herding Group"
+    "category": "Herding Group",
+    "coat_type": "medium_double"
   },
   {
     "ceo_format": "tervuren",
     "standard_format": "Belgian Tervuren",
-    "category": "Herding Group"
+    "category": "Herding Group",
+    "coat_type": "medium_double"
+  },
+  {
+    "ceo_format": "groenendael",
+    "standard_format": "Belgian Sheepdog",
+    "category": "Herding Group",
+    "coat_type": "medium_double"
   },
   {
     "ceo_format": "frise-bichon",
     "standard_format": "Bichon Frise",
-    "category": "Toy Group"
+    "category": "Toy Group",
+    "coat_type": "curly_wavy"
   },
   {
     "ceo_format": "hound-blood",
     "standard_format": "Bloodhound",
-    "category": "Hound Group"
+    "category": "Hound Group",
+    "coat_type": "smooth_short"
   },
   {
     "ceo_format": "bluetick",
     "standard_format": "Bluetick Coonhound",
-    "category": "Hound Group"
+    "category": "Hound Group",
+    "coat_type": "smooth_short"
   },
   {
     "ceo_format": "collie-border",
     "standard_format": "Border Collie",
-    "category": "Herding Group"
+    "category": "Herding Group",
+    "coat_type": "medium_double"
   },
   {
     "ceo_format": "terrier-border",
     "standard_format": "Border Terrier",
-    "category": "Terrier Group"
+    "category": "Terrier Group",
+    "coat_type": "wire_rough"
   },
   {
     "ceo_format": "borzoi",
     "standard_format": "Borzoi",
-    "category": "Hound Group"
+    "category": "Hound Group",
+    "coat_type": "long"
   },
   {
     "ceo_format": "terrier-boston",
     "standard_format": "Boston Terrier",
-    "category": "Terrier Group"
+    "category": "Terrier Group",
+    "coat_type": "smooth_short"
   },
   {
     "ceo_format": "bouvier",
     "standard_format": "Bouvier des Flandres",
-    "category": "Herding Group"
+    "category": "Herding Group",
+    "coat_type": "long"
   },
   {
     "ceo_format": "boxer",
     "standard_format": "Boxer",
-    "category": "Working Group"
+    "category": "Working Group",
+    "coat_type": "smooth_short"
   },
   {
     "ceo_format": "briard",
     "standard_format": "Briard",
-    "category": "Herding Group"
+    "category": "Herding Group",
+    "coat_type": "long"
   },
   {
     "ceo_format": "spaniel-brittany",
     "standard_format": "Brittany",
-    "category": "Sporting Group"
+    "category": "Sporting Group",
+    "coat_type": "N/A"
   },
   {
     "ceo_format": "bulldog-english",
     "standard_format": "Bulldog",
-    "category": "Non-Sporting Group"
+    "category": "Non-Sporting Group",
+    "coat_type": "smooth_short"
   },
   {
     "ceo_format": "mastiff-bull",
     "standard_format": "Bullmastiff",
-    "category": "Working Group"
+    "category": "Working Group",
+    "coat_type": "smooth_short"
   },
   {
     "ceo_format": "terrier-cairn",
     "standard_format": "Cairn Terrier",
-    "category": "Terrier Group"
+    "category": "Terrier Group",
+    "coat_type": "wire_rough"
   },
   {
     "ceo_format": "corgi-cardigan",
     "standard_format": "Cardigan Welsh Corgi",
-    "category": "Herding Group"
+    "category": "Herding Group",
+    "coat_type": "medium_double"
   },
   {
     "ceo_format": "ovcharka-caucasian",
     "standard_format": "Caucasian Shepherd Dog",
-    "category": "Working Group"
+    "category": "Working Group",
+    "coat_type": "medium_double"
   },
   {
     "ceo_format": "retriever-chesapeake",
     "standard_format": "Chesapeake Bay Retriever",
-    "category": "Sporting Group"
+    "category": "Sporting Group",
+    "coat_type": "medium_double"
   },
   {
     "ceo_format": "chihuahua",
     "standard_format": "Chihuahua",
-    "category": "Toy Group"
+    "category": "Toy Group",
+    "coat_type": "smooth_short"
   },
   {
     "ceo_format": "sharpei",
     "standard_format": "Chinese Shar-Pei",
-    "category": "Non-Sporting Group"
+    "category": "Non-Sporting Group",
+    "coat_type": "smooth_short"
   },
   {
     "ceo_format": "clumber",
     "standard_format": "Clumber Spaniel",
-    "category": "Sporting Group"
+    "category": "Sporting Group",
+    "coat_type": "long"
   },
   {
     "ceo_format": "spaniel-cocker",
     "standard_format": "Cocker Spaniel",
-    "category": "Sporting Group"
+    "category": "Sporting Group",
+    "coat_type": "long"
   },
   {
     "ceo_format": "cotondetulear",
     "standard_format": "Coton de Tulear",
-    "category": "Non-Sporting Group"
+    "category": "Non-Sporting Group",
+    "coat_type": "curly_wavy"
   },
   {
     "ceo_format": "retriever-curly",
     "standard_format": "Curly-Coated Retriever",
-    "category": "Sporting Group"
+    "category": "Sporting Group",
+    "coat_type": "curly_wavy"
   },
   {
     "ceo_format": "dachshund",
     "standard_format": "Dachshund",
-    "category": "Hound Group"
+    "category": "Hound Group",
+    "coat_type": "smooth_short"
   },
   {
     "ceo_format": "dalmatian",
     "standard_format": "Dalmatian",
-    "category": "Sporting Group"
+    "category": "Sporting Group",
+    "coat_type": "smooth_short"
   },
   {
     "ceo_format": "terrier-dandie",
     "standard_format": "Dandie Dinmont Terrier",
-    "category": "Terrier Group"
+    "category": "Terrier Group",
+    "coat_type": "wire_rough"
   },
   {
     "ceo_format": "doberman",
     "standard_format": "Doberman Pinscher",
-    "category": "Working Group"
+    "category": "Working Group",
+    "coat_type": "smooth_short"
   },
   {
     "ceo_format": "spaniel-cocker",
     "standard_format": "English Cocker Spaniel",
-    "category": "Sporting Group"
+    "category": "Sporting Group",
+    "coat_type": "long"
   },
   {
     "ceo_format": "setter-english",
     "standard_format": "English Setter",
-    "category": "Sporting Group"
+    "category": "Sporting Group",
+    "coat_type": "long"
   },
   {
     "ceo_format": "springer-english",
     "standard_format": "English Springer Spaniel",
-    "category": "Sporting Group"
+    "category": "Sporting Group",
+    "coat_type": "long"
   },
   {
     "ceo_format": "entlebucher",
     "standard_format": "Entlebucher Mountain Dog",
-    "category": "Herding Group"
+    "category": "Herding Group",
+    "coat_type": "medium_double"
   },
   {
     "ceo_format": "finnish-lapphund",
     "standard_format": "Finnish Lapphund",
-    "category": "Herding Group"
+    "category": "Herding Group",
+    "coat_type": "medium_double"
   },
   {
     "ceo_format": "retriever-flatcoated",
     "standard_format": "Flat-Coated Retriever",
-    "category": "Sporting Group"
+    "category": "Sporting Group",
+    "coat_type": "long"
   },
   {
     "ceo_format": "bulldog-french",
     "standard_format": "French Bulldog",
-    "category": "Non-Sporting Group"
+    "category": "Non-Sporting Group",
+    "coat_type": "smooth_short"
   },
   {
     "ceo_format": "pointer-germanlonghair",
     "standard_format": "German Longhaired Pointer",
-    "category": "Herding Group"
+    "category": "Herding Group",
+    "coat_type": "medium_double"
   },
   {
     "ceo_format": "german-shepherd",
     "standard_format": "German Shepherd Dog",
-    "category": "Working Group"
+    "category": "Working Group",
+    "coat_type": "medium_double"
   },
   {
     "ceo_format": "schnauzer-giant",
     "standard_format": "Giant Schnauzer",
-    "category": "Working Group"
+    "category": "Working Group",
+    "coat_type": "wire_rough"
   },
   {
     "ceo_format": "retriever-golden",
     "standard_format": "Golden Retriever",
-    "category": "Sporting Group"
+    "category": "Sporting Group",
+    "coat_type": "long"
   },
   {
     "ceo_format": "setter-gordon",
     "standard_format": "Gordon Setter",
-    "category": "Sporting Group"
+    "category": "Sporting Group",
+    "coat_type": "long"
   },
   {
     "ceo_format": "dane-great",
     "standard_format": "Great Dane",
-    "category": "Working Group"
+    "category": "Working Group",
+    "coat_type": "smooth_short"
   },
   {
     "ceo_format": "pyrenees",
     "standard_format": "Great Pyrenees",
-    "category": "Working Group"
+    "category": "Working Group",
+    "coat_type": "medium_double"
   },
   {
     "ceo_format": "havanese",
     "standard_format": "Havanese",
-    "category": "Toy Group"
+    "category": "Toy Group",
+    "coat_type": "long"
   },
   {
     "ceo_format": "hound-ibizan",
     "standard_format": "Ibizan Hound",
-    "category": "Hound Group"
+    "category": "Hound Group",
+    "coat_type": "smooth_short"
   },
   {
     "ceo_format": "setter-irish",
     "standard_format": "Irish Setter",
-    "category": "Sporting Group"
+    "category": "Sporting Group",
+    "coat_type": "long"
   },
   {
     "ceo_format": "terrier-irish",
     "standard_format": "Irish Terrier",
-    "category": "Terrier Group"
+    "category": "Terrier Group",
+    "coat_type": "wire_rough"
   },
   {
     "ceo_format": "spaniel-irish",
     "standard_format": "Irish Water Spaniel",
-    "category": "Sporting Group"
+    "category": "Sporting Group",
+    "coat_type": "curly_wavy"
   },
   {
     "ceo_format": "wolfhound-irish",
     "standard_format": "Irish Wolfhound",
-    "category": "Hound Group"
+    "category": "Hound Group",
+    "coat_type": "wire_rough"
   },
   {
     "ceo_format": "greyhound-italian",
     "standard_format": "Italian Greyhound",
-    "category": "Hound Group"
+    "category": "Hound Group",
+    "coat_type": "smooth_short"
   },
   {
     "ceo_format": "spitz-japanese",
     "standard_format": "Japanese Spitz",
-    "category": "Toy Group"
+    "category": "Toy Group",
+    "coat_type": "medium_double"
   },
   {
     "ceo_format": "keeshond",
     "standard_format": "Keeshond",
-    "category": "Non-Sporting Group"
+    "category": "Non-Sporting Group",
+    "coat_type": "medium_double"
   },
   {
     "ceo_format": "terrier-kerryblue",
     "standard_format": "Kerry Blue Terrier",
-    "category": "Terrier Group"
+    "category": "Terrier Group",
+    "coat_type": "wire_rough"
   },
   {
     "ceo_format": "komondor",
     "standard_format": "Komondor",
-    "category": "Working Group"
+    "category": "Working Group",
+    "coat_type": "curly_wavy"
   },
   {
     "ceo_format": "kuvasz",
     "standard_format": "Kuvasz",
-    "category": "Working Group"
+    "category": "Working Group",
+    "coat_type": "medium_double"
   },
   {
     "ceo_format": "labrador",
     "standard_format": "Labrador Retriever",
-    "category": "Sporting Group"
+    "category": "Sporting Group",
+    "coat_type": "smooth_short"
   },
   {
     "ceo_format": "terrier-lakeland",
     "standard_format": "Lakeland Terrier",
-    "category": "Terrier Group"
+    "category": "Terrier Group",
+    "coat_type": "wire_rough"
   },
   {
     "ceo_format": "leonberg",
     "standard_format": "Leonberger",
-    "category": "Working Group"
+    "category": "Working Group",
+    "coat_type": "medium_double"
   },
   {
     "ceo_format": "lhasa",
     "standard_format": "Lhasa Apso",
-    "category": "Toy Group"
+    "category": "Toy Group",
+    "coat_type": "long"
   },
   {
     "ceo_format": "maltese",
     "standard_format": "Maltese",
-    "category": "Toy Group"
+    "category": "Toy Group",
+    "coat_type": "long"
   },
   {
     "ceo_format": "mastiff-english",
     "standard_format": "Mastiff",
-    "category": "Working Group"
+    "category": "Working Group",
+    "coat_type": "smooth_short"
   },
   {
     "ceo_format": "pinscher-miniature",
     "standard_format": "Miniature Pinscher",
-    "category": "Toy Group"
+    "category": "Toy Group",
+    "coat_type": "smooth_short"
   },
   {
     "ceo_format": "schnauzer-miniature",
     "standard_format": "Miniature Schnauzer",
-    "category": "Terrier Group"
+    "category": "Terrier Group",
+    "coat_type": "wire_rough"
   },
   {
     "ceo_format": "newfoundland",
     "standard_format": "Newfoundland",
-    "category": "Working Group"
+    "category": "Working Group",
+    "coat_type": "medium_double"
   },
   {
     "ceo_format": "terrier-norfolk",
     "standard_format": "Norfolk Terrier",
-    "category": "Terrier Group"
+    "category": "Terrier Group",
+    "coat_type": "wire_rough"
   },
   {
     "ceo_format": "buhund-norwegian",
     "standard_format": "Norwegian Buhund",
-    "category": "Herding Group"
+    "category": "Herding Group",
+    "coat_type": "medium_double"
   },
   {
     "ceo_format": "elkhound-norwegian",
     "standard_format": "Norwegian Elkhound",
-    "category": "Hound Group"
+    "category": "Hound Group",
+    "coat_type": "medium_double"
   },
   {
     "ceo_format": "terrier-norwich",
     "standard_format": "Norwich Terrier",
-    "category": "Terrier Group"
+    "category": "Terrier Group",
+    "coat_type": "wire_rough"
   },
   {
     "ceo_format": "sheepdog-english",
     "standard_format": "Old English Sheepdog",
-    "category": "Herding Group"
+    "category": "Herding Group",
+    "coat_type": "medium_double"
   },
   {
     "ceo_format": "otterhound",
     "standard_format": "Otterhound",
-    "category": "Hound Group"
+    "category": "Hound Group",
+    "coat_type": "wire_rough"
   },
   {
     "ceo_format": "papillon",
     "standard_format": "Papillon",
-    "category": "Toy Group"
+    "category": "Toy Group",
+    "coat_type": "long"
   },
   {
     "ceo_format": "pekinese",
     "standard_format": "Pekingese",
-    "category": "Toy Group"
+    "category": "Toy Group",
+    "coat_type": "long"
   },
   {
     "ceo_format": "pembroke",
     "standard_format": "Pembroke Welsh Corgi",
-    "category": "Herding Group"
+    "category": "Herding Group",
+    "coat_type": "medium_double"
   },
   {
     "ceo_format": "hound-plott",
     "standard_format": "Plott",
-    "category": "Hound Group"
+    "category": "Hound Group",
+    "coat_type": "smooth_short"
   },
   {
     "ceo_format": "pomeranian",
     "standard_format": "Pomeranian",
-    "category": "Toy Group"
+    "category": "Toy Group",
+    "coat_type": "long"
   },
   {
     "ceo_format": "poodle-miniature",
     "standard_format": "Poodle (Miniature)",
-    "category": "Non-Sporting Group"
+    "category": "Non-Sporting Group",
+    "coat_type": "curly_wavy"
   },
   {
     "ceo_format": "poodle-standard",
     "standard_format": "Poodle (Standard)",
-    "category": "Non-Sporting Group"
+    "category": "Non-Sporting Group",
+    "coat_type": "curly_wavy"
   },
   {
     "ceo_format": "poodle-toy",
     "standard_format": "Poodle (Toy)",
-    "category": "Toy Group"
+    "category": "Toy Group",
+    "coat_type": "curly_wavy"
   },
   {
     "ceo_format": "pug",
     "standard_format": "Pug",
-    "category": "Toy Group"
+    "category": "Toy Group",
+    "coat_type": "smooth_short"
   },
   {
     "ceo_format": "pyrenees",
     "standard_format": "Pyrenean Mastiff",
-    "category": "Working Group"
+    "category": "Working Group",
+    "coat_type": "medium_double"
   },
   {
     "ceo_format": "pyrenees",
     "standard_format": "Pyrenean Shepherd",
-    "category": "Herding Group"
+    "category": "Herding Group",
+    "coat_type": "medium_double"
   },
   {
     "ceo_format": "redbone",
     "standard_format": "Redbone Coonhound",
-    "category": "Hound Group"
+    "category": "Hound Group",
+    "coat_type": "smooth_short"
   },
   {
     "ceo_format": "ridgeback-rhodesian",
     "standard_format": "Rhodesian Ridgeback",
-    "category": "Hound Group"
+    "category": "Hound Group",
+    "coat_type": "smooth_short"
   },
   {
     "ceo_format": "rottweiler",
     "standard_format": "Rottweiler",
-    "category": "Working Group"
+    "category": "Working Group",
+    "coat_type": "smooth_short"
   },
   {
     "ceo_format": "terrier-russell",
     "standard_format": "Russell Terrier",
-    "category": "Terrier Group"
+    "category": "Terrier Group",
+    "coat_type": "smooth_short"
   },
   {
     "ceo_format": "stbernard",
     "standard_format": "Saint Bernard",
-    "category": "Working Group"
+    "category": "Working Group",
+    "coat_type": "medium_double"
   },
   {
     "ceo_format": "saluki",
     "standard_format": "Saluki",
-    "category": "Hound Group"
+    "category": "Hound Group",
+    "coat_type": "long"
   },
   {
     "ceo_format": "samoyed",
     "standard_format": "Samoyed",
-    "category": "Working Group"
+    "category": "Working Group",
+    "coat_type": "medium_double"
   },
   {
     "ceo_format": "schipperke",
     "standard_format": "Schipperke",
-    "category": "Non-Sporting Group"
+    "category": "Non-Sporting Group",
+    "coat_type": "medium_double"
   },
   {
     "ceo_format": "deerhound-scottish",
     "standard_format": "Scottish Deerhound",
-    "category": "Hound Group"
+    "category": "Hound Group",
+    "coat_type": "medium_double"
   },
   {
     "ceo_format": "terrier-scottish",
     "standard_format": "Scottish Terrier",
-    "category": "Terrier Group"
+    "category": "Terrier Group",
+    "coat_type": "wire_rough"
   },
   {
     "ceo_format": "terrier-sealyham",
     "standard_format": "Sealyham Terrier",
-    "category": "Terrier Group"
+    "category": "Terrier Group",
+    "coat_type": "wire_rough"
   },
   {
     "ceo_format": "segugio-italian",
     "standard_format": "Segugio Italiano",
-    "category": "Hound Group"
+    "category": "Hound Group",
+    "coat_type": "smooth_short"
   },
   {
     "ceo_format": "sheepdog-shetland",
     "standard_format": "Shetland Sheepdog",
-    "category": "Herding Group"
+    "category": "Herding Group",
+    "coat_type": "medium_double"
   },
   {
     "ceo_format": "shiba",
     "standard_format": "Shiba Inu",
-    "category": "Non-Sporting Group"
+    "category": "Non-Sporting Group",
+    "coat_type": "medium_double"
   },
   {
     "ceo_format": "shihtzu",
     "standard_format": "Shih Tzu",
-    "category": "Toy Group"
+    "category": "Toy Group",
+    "coat_type": "long"
   },
   {
     "ceo_format": "husky",
     "standard_format": "Siberian Husky",
-    "category": "Working Group"
+    "category": "Working Group",
+    "coat_type": "medium_double"
   },
   {
     "ceo_format": "terrier-silky",
     "standard_format": "Silky Terrier",
-    "category": "Toy Group"
+    "category": "Toy Group",
+    "coat_type": "long"
   },
   {
     "ceo_format": "terrier-fox",
     "standard_format": "Smooth Fox Terrier",
-    "category": "Terrier Group"
+    "category": "Terrier Group",
+    "coat_type": "smooth_short"
   },
   {
     "ceo_format": "terrier-wheaten",
     "standard_format": "Soft Coated Wheaten Terrier",
-    "category": "Terrier Group"
+    "category": "Terrier Group",
+    "coat_type": "curly_wavy"
   },
   {
     "ceo_format": "waterdog-spanish",
     "standard_format": "Spanish Water Dog",
-    "category": "Herding Group"
+    "category": "Herding Group",
+    "coat_type": "curly_wavy"
   },
   {
     "ceo_format": "bullterrier-staffordshire",
     "standard_format": "Staffordshire Bull Terrier",
-    "category": "Terrier Group"
+    "category": "Terrier Group",
+    "coat_type": "smooth_short"
   },
   {
     "ceo_format": "spaniel-sussex",
     "standard_format": "Sussex Spaniel",
-    "category": "Sporting Group"
+    "category": "Sporting Group",
+    "coat_type": "curly_wavy"
   },
   {
     "ceo_format": "mastiff-tibetan",
     "standard_format": "Tibetan Mastiff",
-    "category": "Working Group"
+    "category": "Working Group",
+    "coat_type": "medium_double"
   },
   {
     "ceo_format": "terrier-tibetan",
     "standard_format": "Tibetan Terrier",
-    "category": "Non-Sporting Group"
+    "category": "Non-Sporting Group",
+    "coat_type": "long"
   },
   {
     "ceo_format": "terrier-toy",
     "standard_format": "Toy Fox Terrier",
-    "category": "Toy Group"
+    "category": "Toy Group",
+    "coat_type": "smooth_short"
   },
   {
     "ceo_format": "vizsla",
     "standard_format": "Vizsla",
-    "category": "Sporting Group"
+    "category": "Sporting Group",
+    "coat_type": "smooth_short"
   },
   {
     "ceo_format": "weimaraner",
     "standard_format": "Weimaraner",
-    "category": "Sporting Group"
+    "category": "Sporting Group",
+    "coat_type": "smooth_short"
   },
   {
     "ceo_format": "terrier-welsh",
     "standard_format": "Welsh Terrier",
-    "category": "Terrier Group"
+    "category": "Terrier Group",
+    "coat_type": "wire_rough"
   },
   {
     "ceo_format": "terrier-westhighland",
     "standard_format": "West Highland White Terrier",
-    "category": "Terrier Group"
+    "category": "Terrier Group",
+    "coat_type": "wire_rough"
   },
   {
     "ceo_format": "whippet",
     "standard_format": "Whippet",
-    "category": "Hound Group"
+    "category": "Hound Group",
+    "coat_type": "smooth_short"
   },
   {
     "ceo_format": "terrier-fox",
     "standard_format": "Wire Fox Terrier",
-    "category": "Terrier Group"
+    "category": "Terrier Group",
+    "coat_type": "wire_rough"
   },
   {
     "ceo_format": "vizsla",
     "standard_format": "Wirehaired Vizsla",
-    "category": "Sporting Group"
+    "category": "Sporting Group",
+    "coat_type": "wire_rough"
   },
   {
     "ceo_format": "terrier-yorkshire",
     "standard_format": "Yorkshire Terrier",
-    "category": "Toy Group"
+    "category": "Toy Group",
+    "coat_type": "long"
   }
 ]

@@ -64,7 +64,7 @@ header a:hover {
 /* Highlight: same baseline, no extra spacing from font metrics */
 .logo .highlight {
   font-family: var(--font-accent);
-  color: var(--color-primary);
+  color: var(--color-neutral-dark);
   display: inline;            /* let it flow with text */
   vertical-align: baseline;   /* lock to the text baseline */
   line-height: inherit;       /* match its parent span */
@@ -168,7 +168,8 @@ header a:hover {
 }
 
 .highlight {
-  color: #e77b00; /* accent color */
+  font-family: var(--font-accent);
+  color: var(--color-neutral-dark);
 }
 
 
@@ -213,31 +214,55 @@ header a:hover {
   overflow: hidden;
 }
 
+.subscript {
+  font-style: italic;
+  color: var(--color-neutral-dark); 
+  margin-top: 0px;
+}
+
 /* Right column cards stack naturally by content */
 .newsletter-card { grid-column: 2; grid-row: 1; }
 .explore-card    { grid-column: 2; grid-row: 2; }
 
 /* Spotlight media section */
 .spotlight-media {
+  position: relative;
   flex: 1;
   display: grid;
   place-items: center;
-  background: #f8f9fb;
   border-radius: 0.5rem;
+  overflow: hidden; /* ensures blur doesn’t spill outside */
 }
 
+/* blurred background layer */
+.spotlight-media::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: inherit; /* fallback */
+  background-image: var(--spotlight-url); /* custom property for image */
+  background-size: cover;
+  background-position: center;
+  filter: blur(20px);
+  transform: scale(1.1); /* prevents edges showing */
+}
+
+/* actual image on top */
 .spotlight-image {
+  position: relative;
   max-width: 100%;
   max-height: 100%;
-  object-fit: cover;
+  object-fit: contain; /* or cover depending on your need */
   border-radius: 0.5rem;
+  z-index: 1;
 }
 
 /* Buttons */
 .btn,
 #load-more,
 .cat-btn,
-#clear-favorites {
+#clear-favorites,
+.coat-btn {
   display: inline-block;
   padding: 0.6rem 1rem;
   border-radius: 0.6rem;
@@ -253,7 +278,8 @@ header a:hover {
 .btn-secondary,
 #load-more,
 .cat-btn,
-#clear-favorites  {
+#clear-favorites,
+.coat-btn  {
   background: var(--color-primary);
   border: 2px solid var(--color-primary);
 }
@@ -262,7 +288,8 @@ header a:hover {
 .btn-secondary:hover,
 #load-more:hover,
 .cat-btn:hover,
-#clear-favorites:hover {
+#clear-favorites:hover,
+.coat-btn:hover {
   background: var(--color-secondary);
   border-color: var(--color-secondary);
   color: var(--color-neutral-light);
@@ -293,7 +320,7 @@ header a:hover {
 
 .newsletter-form-wrap {
   margin-top: 1rem;
-  font-family: var(--font-accent);
+  font-style: italic;
   /* text-align: center; */
 }
 
@@ -366,12 +393,13 @@ header a:hover {
 /* FOOTER STYLES */
 /*=====================================================================*/
 footer {
-    text-align: center;
-    padding: 1rem;
-    background-color: var(--color-neutral-dark);
-    color: var(--color-neutral-light);
-    font-size: 15px;
-    border-top: 4px solid var(--color-primary);
+  text-align: center;
+  padding: 1rem;
+  background-color: var(--color-neutral-dark);
+  color: var(--color-neutral-light);
+  font-size: 15px;
+  border-top: 4px solid var(--color-primary);
+  margin-top: 1rem;
 }
 
 /* ===================================================================== */
@@ -459,6 +487,13 @@ footer {
 /* breeds and favorites PAGE STYLES */
 /* ===================================================================== */
 /* Gallery container */
+section h1
+section h2 {
+  color: var(--color-neutral-dark);
+  font-family: var(--font-headings);
+  margin-bottom: 1rem;
+}
+
 .gallery {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
@@ -532,6 +567,7 @@ footer {
   color: #555;
   margin: 0.25rem 0 0.5rem;
   text-align: center;
+  font-family: var(--font-accent);
 }
 
 /* Favorite icon */
@@ -550,4 +586,29 @@ footer {
 
 .favorite-icon img:hover {
   transform: scale(1.2);
+}
+
+/* Remove favorite button */
+.breed-card {
+  transition: opacity 0.4s ease, transform 0.4s ease;
+}
+
+.breed-card.fade-out {
+  opacity: 0;
+  transform: scale(0.95);
+}
+
+.spinner {
+  margin: 20px auto;
+  border: 6px solid #f3f3f3;
+  border-top: 6px solid #555;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
 }
