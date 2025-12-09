@@ -174,12 +174,15 @@
         font-size: 1.4rem;
     }
 
-    /* Newsletter overlay becomes top-left */
+    /* Newsletter overlay adjustments */
     .newsletter-overlay {
-        position: static;
-        text-align: center;
-        margin-top: 0.5rem;
-        max-width: 100%;
+        top: auto;              /* reset vertical centering */
+        bottom: 10%;            /* anchor near bottom of image */
+        left: 50%;              /* center horizontally */
+        right: auto;            /* reset desktop offset */
+        transform: translateX(-40%); /* adjust centering */
+        text-align: center;     /* center text */
+        max-width: 80%;         /* allow more room for text */
     }
 
     /* Spotlight text */
