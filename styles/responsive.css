@@ -1,0 +1,205 @@
+/* ============================================================= */
+/* RESPONSIVE STYLES – Mobile and Tablet enhancements                 */
+/* ============================================================= */
+
+/* Global small screens (max-width: 900px) */
+@media (max-width: 900px) {
+
+    /* ------------------------------------------- */
+    /* HEADER                                       */
+    /* ------------------------------------------- */
+    header {
+        padding: 0.5rem 0.75rem;
+    }
+
+    header a {
+        font-size: 20px;
+    }
+
+    /* Shrink logo and favorites icon */
+    .logo img {
+        width: 55px;
+        height: auto;
+    }
+
+    .saved img {
+        width: 45px;
+        height: auto;
+        border-width: 5px;
+    }
+
+    /* Hide “Sniff Around” text, keep icon */
+    .menu-btn span {
+        display: none;
+    }
+
+    /* Make menu icon smaller */
+    #menu-toggle img {
+        width: 55px;
+        height: auto;
+    }
+
+    /* Header items stack better */
+    header {
+        gap: 0.5rem;
+    }
+
+    /* Align menu dropdown properly */
+    .navlinks {
+        right: 0;
+        min-width: 180px;
+    }
+
+    /* ------------------------------------------- */
+    /* HERO SECTION                                 */
+    /* ------------------------------------------- */
+    .hero {
+        height: auto;
+        padding-bottom: 200px; /* space below */
+    }
+
+    .hero img {
+        height: 300px; /* smaller hero image */
+        object-position: center;
+    }
+
+    .hero .hero-content {
+        width: 94%;
+        bottom: 40px;
+        padding: 1.4rem 1rem;
+    }
+
+    .hero .hero-logo img {
+        height: 60px;
+    }
+
+    /* ------------------------------------------- */
+    /* HOMEPAGE GRID Stacking                       */
+    /* ------------------------------------------- */
+
+    /* Stack spotlight, newsletter, explore */
+    .homepage {
+        grid-template-columns: 1fr;
+        padding: 0.5rem;
+    }
+
+    .spotlight-card,
+    .newsletter-card,
+    .explore-card {
+        grid-column: 1 !important;
+    }
+
+    .newsletter-overlay {
+        top: 50%;
+        right: 5%;
+        max-width: 60%;
+    }
+
+    .newsletter-card form {
+        grid-template-columns: 1fr;
+    }
+
+    .newsletter-card button {
+        width: 100%;
+    }
+
+    /* ------------------------------------------- */
+    /* COMPANION / EXPLORE CARD                     */
+    /* ------------------------------------------- */
+    .companion-image {
+        max-height: 280px;
+        object-fit: cover;
+    }
+
+    /* ------------------------------------------- */
+    /* BREEDS PAGE GRID                             */
+    /* ------------------------------------------- */
+    .gallery {
+        grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+        gap: 0.75rem;
+    }
+
+    .breed-card {
+        max-width: 180px;
+    }
+
+    .thumb-wrapper {
+        height: 130px;
+    }
+
+    .breed-card h3 {
+        font-size: 1rem;
+    }
+
+    /* ------------------------------------------- */
+    /* DETAILS PAGE                                 */
+    /* ------------------------------------------- */
+    .details-page {
+        padding: 0.75rem;
+    }
+
+    #breed-image {
+        max-height: 300px;
+    }
+
+    .category-filters button,
+    .coat-filters button {
+        margin: 0.25rem;
+    }
+}
+
+/* ============================================================= */
+/* VERY SMALL SCREENS (max-width: 600px)                         */
+/* ============================================================= */
+
+@media (max-width: 600px) {
+
+    /* Header spacing */
+    header {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .logo span {
+        font-size: 1.4rem;
+    }
+
+    /* Hide Favorites text */
+    .saved span {
+        display: none;
+    }
+
+    /* Force hero text to scale */
+    .hero-content h1 {
+        font-size: 1.4rem;
+    }
+
+    /* Newsletter overlay becomes top-left */
+    .newsletter-overlay {
+        position: static;
+        text-align: center;
+        margin-top: 0.5rem;
+        max-width: 100%;
+    }
+
+    /* Spotlight text */
+    .subscript {
+        font-size: 0.8rem;
+    }
+
+    /* Explore card */
+    .companion-text h2 {
+        font-size: 1.3rem;
+    }
+
+    /* Breed grid tighter */
+    .gallery {
+        grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+        gap: 0.5rem;
+    }
+
+    .thumb-wrapper {
+        height: 120px;
+    }
+}
+/* ============================================================= */
