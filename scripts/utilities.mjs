@@ -1,3 +1,4 @@
+
 export async function loadHeaderFooter() {
     // load the header
     const header = await fetch("../partials/header.html");
@@ -10,23 +11,31 @@ export async function loadHeaderFooter() {
     document.querySelector("#footer").innerHTML = footerText;
 
     // once footer is loaded, update the year
+    updateFooterYear();
+
+    // Adding menu toggle functionality
+    setupMenuToggle();
+}
+
+// update year in footer
+export function updateFooterYear() {
     const currentYear = new Date().getFullYear();
     const yearElement = document.getElementById("currentyear");
     if (yearElement) {
         yearElement.textContent = currentYear;
     }
+}
 
-    // Adding menu toggle functionality
+// Add event listener to menu button
+export function setupMenuToggle() {
     const menuBtn = document.getElementById("menu-toggle");
     const navLinks = document.querySelector(".menu-wrap .navlinks");
-    
     menuBtn.addEventListener("click", (e) => {
         e.preventDefault(); // keep the page from jumping to top
         navLinks.classList.toggle("show");
         navLinks.classList.toggle("hidden");
     });
 }
-
 
 // Locale storage helper functions
 /**

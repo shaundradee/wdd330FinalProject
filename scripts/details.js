@@ -14,6 +14,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     title.textContent = "No breed selected.";
     return;
   }
+  
 
   const { ceo_format, standard_format } = breed;
   title.textContent = standard_format;
@@ -69,5 +70,11 @@ document.addEventListener("DOMContentLoaded", async () => {
   loadRandomImage();
 
   // Silent reload every 5 seconds
-  setInterval(loadRandomImage, 5000);
+  const carouselInterval = setInterval(loadRandomImage, 5000);
+
+  //Clean up interval when leaving page to prevent memory leak
+  window.addEventListener("beforeunload", () =>{
+    clearInterval(carouselInterval);
+  });
+
 });

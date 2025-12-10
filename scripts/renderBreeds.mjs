@@ -29,8 +29,8 @@ export function renderBreeds(breeds, container, options = {}) {
         wrapper.style.setProperty("--thumb-url", `url(${data.message})`);
       })
       .catch(() => {
-        img.src = "fallback.jpg";
-        wrapper.style.setProperty("--thumb-url", "url(fallback.jpg)");
+        img.src = "../images/fallback.webp";
+        wrapper.style.setProperty("--thumb-url", "url('../images/fallback.webp')");
       });
 
     // Info

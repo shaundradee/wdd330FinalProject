@@ -12,6 +12,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   const batchSize = 10; // smaller batch size for smoother lazy load
   let activeList = [];  // current filtered list
   let observer;         // intersection observer reference
+  let isLoading = false; // prevent race conditions during lazy load
 
   try {
     const res = await fetch("../matchingBreeds.json");
@@ -30,6 +31,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       const coat = e.target.dataset.coat;
 
       currentIndex = 0;
+      isLoading = false; // reset loading flag for filter change
 
       if (category) {
         activeList = category === "All"
@@ -65,8 +67,9 @@ document.addEventListener("DOMContentLoaded", async () => {
   }
 
   function loadBatch(list) {
-    if (currentIndex >= list.length) return;
+    if (currentIndex >= list.length || isLoading) return;
 
+    isLoading = true; // prevent overlapping loads
     showSpinner();
 
     setTimeout(() => {
@@ -76,6 +79,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       renderBreeds(nextBatch, gallery, { append: true });
 
       currentIndex += batchSize;
+      isLoading = false; // reset loading flag
       hideSpinner();
 
       // Stop observing if no more breeds
